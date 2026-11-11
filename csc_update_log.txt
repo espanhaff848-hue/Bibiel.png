@@ -1,0 +1,338 @@
+2025-09-16 06:38:58.310Z I/CscUpdateService: [onStartCommand(CscUpdateService.java:105)] set_CSC_version
+2025-09-16 06:38:58.311Z I/CscParser: [onStartCommand(CscUpdateService.java:109)] getSWConfigPath : omc SW_Configuration file can read
+2025-09-16 06:38:58.312Z D/CscParser: [m(CscParser.java:41)] update(): /prism/etc/SW_Configuration.xml file exist
+2025-09-16 06:38:58.354Z I/CscUtil: [r(CscUtil.java:46)] isWifiOnly = false
+2025-09-16 06:38:58.364Z I/CscUpdateService: [onStartCommand(CscUpdateService.java:139)] PATH_CSCNAME =CustomerDataSet.CSCName
+2025-09-16 06:38:58.567Z I/CscUtil: [B(CscUtil.java:38)] checkChameleonStr : null
+2025-09-16 06:38:58.569Z I/CscUtil: [j(CscUtil.java:21)] isCscUpdated userid : 0
+2025-09-16 06:38:58.570Z I/CscUtil: [j(CscUtil.java:53)] isCscUpdated : false
+2025-09-16 06:38:58.591Z I/CscUtil: [onStartCommand(CscUpdateService.java:170)] userId (0), profileUserId (0)
+2025-09-16 06:38:58.592Z D/CscUpdateService: [onStartCommand(CscUpdateService.java:172)] This is first boot for Owner : CSC updated for user (0)
+2025-09-16 06:38:58.594Z I/CscUpdateService: [k(CscUpdateService.java:42)] cscUpdate() start
+2025-09-16 06:38:58.693Z I/CscUtil: [s(CscUtil.java:28)] wake lock acquire!
+2025-09-16 06:38:58.715Z I/CscSBrowser: [p(CscSBrowser.java:32)] isPackageInstalled : com.sec.android.app.sbrowser is installed
+2025-09-16 06:38:58.716Z I/CscSBrowser: [p(CscSBrowser.java:32)] isPackageInstalled : com.sec.android.app.sbrowser is installed
+2025-09-16 06:38:58.717Z I/CscUtil: [r(CscUtil.java:46)] isWifiOnly = false
+2025-09-16 06:38:58.842Z I/CscUtil: [r(CscUtil.java:46)] isWifiOnly = false
+2025-09-16 06:38:58.843Z I/CscTgManager: [<init>(CscTgManager.java:476)] makeWorkingList() +e
+2025-09-16 06:38:58.843Z I/CscTgManager: [<init>(CscTgManager.java:476)] makeWorkingList() +m
+2025-09-16 06:38:58.844Z I/CscTgManager: [<init>(CscTgManager.java:476)] makeWorkingList() +a
+2025-09-16 06:38:58.844Z I/CscTgManager: [<init>(CscTgManager.java:476)] makeWorkingList() +l
+2025-09-16 06:38:58.844Z I/CscTgManager: [<init>(CscTgManager.java:476)] makeWorkingList() +o
+2025-09-16 06:38:58.912Z E/CscUtil: [<init>(CscTgManager.java:449)] A package is not installed
+2025-09-16 06:38:58.928Z I/CscTgManager: [<init>(CscTgManager.java:476)] makeWorkingList() +x
+2025-09-16 06:38:58.935Z E/CscUtil: [<init>(CscTgManager.java:449)] A package is not installed
+2025-09-16 06:38:58.963Z I/CscTgManager: [<init>(CscTgManager.java:476)] makeWorkingList() +i
+2025-09-16 06:38:58.965Z I/CscTgManager: [<init>(CscTgManager.java:476)] makeWorkingList() +e
+2025-09-16 06:38:59.020Z I/CscTgManager: [<init>(CscTgManager.java:476)] makeWorkingList() +y
+2025-09-16 06:38:59.021Z I/CscTgManager: [<init>(CscTgManager.java:476)] makeWorkingList() +k
+2025-09-16 06:38:59.021Z I/CscTgManager: [<init>(CscTgManager.java:476)] makeWorkingList() +p
+2025-09-16 06:38:59.022Z I/CscTgManager: [<init>(CscTgManager.java:476)] makeWorkingList() +n
+2025-09-16 06:38:59.022Z I/CscTgManager: [<init>(CscTgManager.java:476)] makeWorkingList() +E
+2025-09-16 06:38:59.022Z I/CscTgManager: [<init>(CscTgManager.java:476)] makeWorkingList() +a
+2025-09-16 06:38:59.095Z E/CscUtil: [<init>(CscTgManager.java:449)] A package is not installed
+2025-09-16 06:38:59.100Z I/CscTgManager: [<init>(CscTgManager.java:476)] makeWorkingList() +q
+2025-09-16 06:38:59.103Z I/CscTgManager: [<init>(CscTgManager.java:476)] makeWorkingList() +A
+2025-09-16 06:38:59.112Z I/CscContents: [h(CscContents.java:5)] verifyResetDone() start
+2025-09-16 06:38:59.163Z I/CscContents: [h(CscContents.java:59)] Contacts counted : 0
+2025-09-16 06:38:59.167Z I/CscUtil: [r(CscUtil.java:46)] isWifiOnly = false
+2025-09-16 06:38:59.186Z I/CscContents: [h(CscContents.java:158)] Calls counted : 0
+2025-09-16 06:38:59.186Z I/CscUtil: [r(CscUtil.java:46)] isWifiOnly = false
+2025-09-16 06:38:59.193Z I/CscContents: [h(CscContents.java:250)] SMS counted : 0
+2025-09-16 06:38:59.201Z I/CscContents: [h(CscContents.java:326)] MMS counted : 0
+2025-09-16 06:38:59.724Z D/CscReceiver: [onReceive(CscReceiver.java:49)] onReceive android.intent.action.SIM_STATE_CHANGED
+2025-09-16 06:38:59.774Z D/CscSimStateService: [onHandleIntent(CscSimStateService.java:35)] Recieve Sim State Changed : ABSENT
+2025-09-16 06:39:00.664Z I/CscContents: [h(CscContents.java:406)] Samsung Notes count : 0
+2025-09-16 06:39:01.541Z I/CscContents: [h(CscContents.java:602)] Alarm counted : 0
+2025-09-16 06:39:01.541Z I/CscContents: [h(CscContents.java:673)] verifyResetDone() end / answer : 
+2025-09-16 06:39:01.543Z D/CscUpdateService: [d(CscUpdateService.java:76)] cscUpdate start [com.samsung.sec.android.application.csc.tgmanager.tg.e] (0)
+2025-09-16 06:39:01.543Z E/CscContacts: [a(CscContacts.java:52)] update() called.
+2025-09-16 06:39:01.548Z D/CscUpdateService: [d(CscUpdateService.java:143)] cscUpdate done (0)
+2025-09-16 06:39:01.549Z D/CscUpdateService: [d(CscUpdateService.java:76)] cscUpdate start [i.m] (1)
+2025-09-16 06:39:01.549Z I/CscDRMVerifier: [a(CscDRMVerifier.java:14)] DRM Checking Start...!!
+2025-09-16 06:39:01.550Z I/CscParser: [f(CscParser.java:44)] getCustomerPath : omc customer file can read
+2025-09-16 06:39:01.551Z D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2025-09-16 06:39:01.557Z I/CscDRMVerifier: [a(R8$$SyntheticClass:13)] DRMValue_CMLA :: null
+2025-09-16 06:39:01.558Z I/CscDRMVerifier: [a(CscDRMVerifier.java:58)] DRM Setting Update Complete!!
+2025-09-16 06:39:01.558Z D/CscUpdateService: [d(CscUpdateService.java:143)] cscUpdate done (1)
+2025-09-16 06:39:01.559Z D/CscUpdateService: [d(CscUpdateService.java:76)] cscUpdate start [com.samsung.sec.android.application.csc.tgmanager.tg.a] (2)
+2025-09-16 06:39:01.559Z I/CscParser: [f(CscParser.java:44)] getCustomerPath : omc customer file can read
+2025-09-16 06:39:01.560Z D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2025-09-16 06:39:01.572Z I/CscCamera: [a(CscCamera.java:2)] update start
+2025-09-16 06:39:01.573Z I/CscCamera: [a(CscCamera.java:4)] <Multimedia> is not exist.
+2025-09-16 06:39:01.573Z D/CscUpdateService: [d(CscUpdateService.java:143)] cscUpdate done (2)
+2025-09-16 06:39:01.573Z D/CscUpdateService: [d(CscUpdateService.java:76)] cscUpdate start [i.l] (3)
+2025-09-16 06:39:01.574Z D/CscUpdateService: [d(CscUpdateService.java:143)] cscUpdate done (3)
+2025-09-16 06:39:01.574Z D/CscUpdateService: [d(CscUpdateService.java:76)] cscUpdate start [i.o] (4)
+2025-09-16 06:39:01.574Z I/CSCLocaleOverlayManager: [a(CscLocaleOverlayManager.java:5)] CscLocaleOverlayManager::update
+2025-09-16 06:39:01.575Z D/CscUpdateService: [d(CscUpdateService.java:143)] cscUpdate done (4)
+2025-09-16 06:39:01.575Z D/CscUpdateService: [d(CscUpdateService.java:76)] cscUpdate start [i.x] (5)
+2025-09-16 06:39:01.575Z I/CscSBrowser: [a(CscSBrowser.java:1)] updateType is 1
+2025-09-16 06:39:01.576Z I/CscUtil: [f(CscUtil.java:5)] getOmcMount
+2025-09-16 06:39:01.576Z I/CscSBrowser: [a(CscSBrowser.java:2)] CscUtil.getOmcMount() :  0
+2025-09-16 06:39:01.576Z I/CscSBrowser: [a(CscSBrowser.java:141)]  ** update runs..
+2025-09-16 06:39:01.617Z I/CscParser: [f(CscParser.java:44)] getCustomerPath : omc customer file can read
+2025-09-16 06:39:01.617Z D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2025-09-16 06:39:01.620Z E/CscContacts: [g(CscContacts.java:8)] removePreloadDB() called.
+2025-09-16 06:39:01.641Z I/CscContacts: [g(CscContacts.java:76)] removePreloadDB successed
+2025-09-16 06:39:01.641Z E/CscContacts: [r(CscContacts.java:5)] updateDB() called.
+2025-09-16 06:39:01.642Z I/CscParser: [f(CscParser.java:44)] getCustomerPath : omc customer file can read
+2025-09-16 06:39:01.642Z D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2025-09-16 06:39:01.644Z I/CscContacts: [r(CscContacts.java:21)] update start
+2025-09-16 06:39:01.644Z I/CscContacts: [r(CscContacts.java:42)] updateDB isDishChameleonFeature : false
+2025-09-16 06:39:01.645Z I/CscContacts: [r(CscContacts.java:206)] <Contact> is not exist.
+2025-09-16 06:39:03.059Z I/CscUtil: [d(CscUtil.java:7)] getCscUpdated
+2025-09-16 06:39:03.060Z E/CscUtil: [d(CscUtil.java:209)] Fail to get salesCode from database and the data file
+2025-09-16 06:39:03.060Z I/CscSBrowser: [u(CscSBrowser.java:108)] salesCode : ZTO, cscUpdated : null
+2025-09-16 06:39:03.060Z I/CscSBrowser: [u(CscSBrowser.java:125)] isTriggeredByLateActivation: false
+2025-09-16 06:39:03.061Z I/CscSBrowser: [u(CscSBrowser.java:191)] No change for sales code
+2025-09-16 06:39:03.091Z I/CscSBrowser: [r(CscSBrowser.java:44)] ConfigDefaultBrowser is : 
+2025-09-16 06:39:03.092Z I/CscSBrowser: [a(R8$$SyntheticClass:13)] defaultBrowserPkgName : com.android.chrome
+2025-09-16 06:39:03.093Z I/CscSBrowser: [r(CscSBrowser.java:143)] com.sec.android.app.sbrowser is set for default browser
+2025-09-16 06:39:03.109Z D/CscUpdateService: [d(CscUpdateService.java:143)] cscUpdate done (5)
+2025-09-16 06:39:03.110Z D/CscUpdateService: [d(CscUpdateService.java:76)] cscUpdate start [i.i] (6)
+2025-09-16 06:39:03.110Z E/CscChromeBrowser: [a(CscChromeBrowser.java:23)]  ** update runs..
+2025-09-16 06:39:03.110Z I/CscUtil: [f(CscUtil.java:5)] getOmcMount
+2025-09-16 06:39:03.111Z I/CscChromeBrowser: [a(CscChromeBrowser.java:44)] CscUtil.getOmcMount() :  0
+2025-09-16 06:39:03.111Z I/CscUtil: [f(CscUtil.java:5)] getOmcMount
+2025-09-16 06:39:03.111Z I/CscParser: [f(CscParser.java:44)] getCustomerPath : omc customer file can read
+2025-09-16 06:39:03.112Z D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2025-09-16 06:39:03.114Z D/CscUpdateService: [d(CscUpdateService.java:143)] cscUpdate done (6)
+2025-09-16 06:39:03.114Z D/CscUpdateService: [d(CscUpdateService.java:76)] cscUpdate start [i.e] (7)
+2025-09-16 06:39:03.115Z D/CscUpdateService: [d(CscUpdateService.java:143)] cscUpdate done (7)
+2025-09-16 06:39:03.115Z D/CscUpdateService: [d(CscUpdateService.java:76)] cscUpdate start [i.y] (8)
+2025-09-16 06:39:03.116Z I/CscParser: [f(CscParser.java:44)] getCustomerPath : omc customer file can read
+2025-09-16 06:39:03.116Z D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2025-09-16 06:39:03.119Z D/CscUpdateService: [d(CscUpdateService.java:143)] cscUpdate done (8)
+2025-09-16 06:39:03.120Z D/CscUpdateService: [d(CscUpdateService.java:76)] cscUpdate start [i.k] (9)
+2025-09-16 06:39:03.120Z E/CscConnection: [a(CscConnection.java:80)] update calls
+2025-09-16 06:39:03.121Z D/CscConnection: [f(CscConnection.java:30)] update force: falsesimSlot:-1
+2025-09-16 06:39:03.121Z I/CscUtil: [j(CscUtil.java:21)] isCscUpdated userid : 0
+2025-09-16 06:39:03.122Z I/CscUtil: [j(CscUtil.java:53)] isCscUpdated : false
+2025-09-16 06:39:03.122Z I/CscUtil: [c(CscUtil.java:33)] getCscPreferenceValue: csc.key.already_executed = false
+2025-09-16 06:39:03.124Z I/CscUtil: [d(CscUtil.java:7)] getCscUpdated
+2025-09-16 06:39:03.125Z E/CscUtil: [d(CscUtil.java:209)] Fail to get salesCode from database and the data file
+2025-09-16 06:39:03.125Z I/CscUtil: [p(CscUtil.java:27)] Previous SalesCode : null
+2025-09-16 06:39:03.125Z I/CscUtil: [p(CscUtil.java:44)] Current SalesCode : ZTO
+2025-09-16 06:39:03.126Z D/CscConnection: [f(CscConnection.java:126)] salesCode : ZTO, countryIso : BR
+2025-09-16 06:39:03.126Z D/CscConnection: [f(CscConnection.java:168)] Non TSS 2.0
+2025-09-16 06:39:03.126Z D/CscConnection: [f(CscConnection.java:257)] preDdsSlot(0) setDataEnabled(true) force (false) for OMC 
+2025-09-16 06:39:03.141Z I/CscCalendar: [d(CscCalendar.java:26)] Wake-up the samsung calendar app.
+2025-09-16 06:39:03.141Z I/CscParser: [f(CscParser.java:44)] getCustomerPath : omc customer file can read
+2025-09-16 06:39:03.142Z D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2025-09-16 06:39:03.144Z I/CscCalendar: [e(CscCalendar.java:29)] CscCalendar Update()
+2025-09-16 06:39:03.144Z I/CscCalendar: [e(CscCalendar.java:107)] CscCalendar intent.getExtras() =null
+2025-09-16 06:39:03.166Z D/CscDevice: [d(Device.java:49)] no persist.sys.nw_path 0
+2025-09-16 06:39:03.166Z I/CscParser: [e(CscParser.java:75)] getCustomerNwPath (0) : /optics/configs/carriers/single/ZTO/conf
+2025-09-16 06:39:03.167Z D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2025-09-16 06:39:03.169Z E/CscConnection: [f(CscConnection.java:326)] update : force falseslot 0
+2025-09-16 06:39:03.169Z D/CscDevice: [d(Device.java:49)] no persist.sys.nw_path 0
+2025-09-16 06:39:03.170Z I/CscParser: [e(CscParser.java:75)] getCustomerNwPath (0) : /optics/configs/carriers/single/ZTO/conf
+2025-09-16 06:39:03.170Z D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2025-09-16 06:39:03.173Z D/CscConnection: [e(CscConnection.java:16)] parseNwkInfo
+2025-09-16 06:39:03.173Z D/CscDevice: [d(Device.java:49)] no persist.sys.nw_path 0
+2025-09-16 06:39:03.174Z I/CscParser: [e(CscParser.java:75)] getCustomerNwPath (0) : /optics/configs/carriers/single/ZTO/conf
+2025-09-16 06:39:03.174Z D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2025-09-16 06:39:03.176Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : TIM] [plmn : 72402] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2025-09-16 06:39:03.177Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : TIM] [plmn : 72403] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2025-09-16 06:39:03.177Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : TIM] [plmn : 72404] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2025-09-16 06:39:03.178Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : Claro] [plmn : 72405] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2025-09-16 06:39:03.178Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : VIVO] [plmn : 72406] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2025-09-16 06:39:03.178Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : VIVO] [plmn : 72410] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2025-09-16 06:39:03.179Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : VIVO] [plmn : 72411] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2025-09-16 06:39:03.179Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : VIVO] [plmn : 72423] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2025-09-16 06:39:03.179Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : Oi] [plmn : 72416] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2025-09-16 06:39:03.180Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : Oi] [plmn : 72431] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2025-09-16 06:39:03.180Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : Sercomtel] [plmn : 72415] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2025-09-16 06:39:03.180Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : Algar] [plmn : 72432] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2025-09-16 06:39:03.181Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : Algar] [plmn : 72433] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2025-09-16 06:39:03.181Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : Algar] [plmn : 72434] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2025-09-16 06:39:03.181Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : Nextel] [plmn : 72439] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2025-09-16 06:39:03.182Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : Porto Conecta] [plmn : 72454] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2025-09-16 06:39:03.182Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : Surf Telecom] [plmn : 72417] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2025-09-16 06:39:03.182Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : Arqia] [plmn : 72418] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2025-09-16 06:39:03.183Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : Americanet] [plmn : 72426] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2025-09-16 06:39:03.191Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : UNIFIQUE] [plmn : 72429] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2025-09-16 06:39:03.193Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : Brisanet] [plmn : 72477] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2025-09-16 06:39:03.225Z D/CscDevice: [d(Device.java:49)] no persist.sys.nw_path 1
+2025-09-16 06:39:03.226Z I/CscParser: [e(CscParser.java:75)] getCustomerNwPath (1) : /optics/configs/carriers/single/ZTO/conf
+2025-09-16 06:39:03.226Z D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2025-09-16 06:39:03.228Z E/CscConnection: [f(CscConnection.java:326)] update : force falseslot 1
+2025-09-16 06:39:03.229Z D/CscDevice: [d(Device.java:49)] no persist.sys.nw_path 1
+2025-09-16 06:39:03.229Z I/CscParser: [e(CscParser.java:75)] getCustomerNwPath (1) : /optics/configs/carriers/single/ZTO/conf
+2025-09-16 06:39:03.229Z D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2025-09-16 06:39:03.231Z D/CscConnection: [e(CscConnection.java:16)] parseNwkInfo
+2025-09-16 06:39:03.232Z D/CscDevice: [d(Device.java:49)] no persist.sys.nw_path 1
+2025-09-16 06:39:03.232Z I/CscParser: [e(CscParser.java:75)] getCustomerNwPath (1) : /optics/configs/carriers/single/ZTO/conf
+2025-09-16 06:39:03.233Z D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2025-09-16 06:39:03.235Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : TIM] [plmn : 72402] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2025-09-16 06:39:03.235Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : TIM] [plmn : 72403] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2025-09-16 06:39:03.235Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : TIM] [plmn : 72404] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2025-09-16 06:39:03.236Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : Claro] [plmn : 72405] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2025-09-16 06:39:03.236Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : VIVO] [plmn : 72406] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2025-09-16 06:39:03.236Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : VIVO] [plmn : 72410] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2025-09-16 06:39:03.237Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : VIVO] [plmn : 72411] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2025-09-16 06:39:03.237Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : VIVO] [plmn : 72423] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2025-09-16 06:39:03.238Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : Oi] [plmn : 72416] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2025-09-16 06:39:03.238Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : Oi] [plmn : 72431] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2025-09-16 06:39:03.238Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : Sercomtel] [plmn : 72415] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2025-09-16 06:39:03.239Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : Algar] [plmn : 72432] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2025-09-16 06:39:03.251Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : Algar] [plmn : 72433] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2025-09-16 06:39:03.252Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : Algar] [plmn : 72434] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2025-09-16 06:39:03.253Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : Nextel] [plmn : 72439] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2025-09-16 06:39:03.255Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : Porto Conecta] [plmn : 72454] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2025-09-16 06:39:03.256Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : Surf Telecom] [plmn : 72417] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2025-09-16 06:39:03.257Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : Arqia] [plmn : 72418] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2025-09-16 06:39:03.258Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : Americanet] [plmn : 72426] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2025-09-16 06:39:03.303Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : UNIFIQUE] [plmn : 72429] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2025-09-16 06:39:03.304Z E/CscConnection: [e(CscConnection.java:338)] [NwkInfo] [nwkname : Brisanet] [plmn : 72477] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2025-09-16 06:39:03.321Z I/CscSBrowser: [s(CscSBrowser.java:17)] setDefaultBrowserPreference() : true
+2025-09-16 06:39:03.322Z I/CscSBrowser: [d(CscSBrowser.java:24)] default browser app is set sucessfully
+2025-09-16 06:39:03.342Z E/CscConnection: [f(CscConnection.java:382)] send intent CSC_SHOW_SIM_PROFILE
+2025-09-16 06:39:03.343Z E/CscConnection: [f(CscConnection.java:389)] update done
+2025-09-16 06:39:03.343Z D/CscUpdateService: [d(CscUpdateService.java:143)] cscUpdate done (9)
+2025-09-16 06:39:03.344Z D/CscUpdateService: [d(CscUpdateService.java:76)] cscUpdate start [i.p] (10)
+2025-09-16 06:39:03.344Z I/CscParser: [f(CscParser.java:44)] getCustomerPath : omc customer file can read
+2025-09-16 06:39:03.345Z D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2025-09-16 06:39:03.347Z I/CscParser: [f(CscParser.java:44)] getCustomerPath : omc customer file can read
+2025-09-16 06:39:03.347Z D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2025-09-16 06:39:03.349Z E/CscParser: [g(CscParser.java:97)] getOthersPath : /system/csc/others.xml file exist
+2025-09-16 06:39:03.350Z E/CscParser: [m(CscParser.java:159)] update(): /system/csc/others.xml file not exist
+2025-09-16 06:39:03.350Z D/CscUpdateService: [d(CscUpdateService.java:143)] cscUpdate done (10)
+2025-09-16 06:39:03.351Z D/CscUpdateService: [d(CscUpdateService.java:76)] cscUpdate start [i.n] (11)
+2025-09-16 06:39:03.353Z D/CscDevice: [d(Device.java:49)] no persist.sys.nw_path 0
+2025-09-16 06:39:03.354Z I/CscParser: [d(CscParser.java:43)] getCustomerNwPath : omc customer file can read
+2025-09-16 06:39:03.354Z D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2025-09-16 06:39:03.356Z D/CscGPS: [a(CscGPS.java:24)] CSCGPS.updateParameters
+2025-09-16 06:39:03.357Z D/CscGPS: [a(CscGPS.java:47)] supl host : null
+2025-09-16 06:39:03.357Z D/CscGPS: [a(CscGPS.java:93)] SUPL Host is null or invalid
+2025-09-16 06:39:03.357Z D/CscGPS: [a(CscGPS.java:116)] supl_ver : null
+2025-09-16 06:39:03.358Z D/CscGPS: [a(CscGPS.java:155)] SUPL Ver is null or invalid
+2025-09-16 06:39:03.358Z D/CscGPS: [a(CscGPS.java:178)] supl port : null
+2025-09-16 06:39:03.358Z D/CscGPS: [a(CscGPS.java:201)] SUPL PORT is null or invalid
+2025-09-16 06:39:03.359Z D/CscGPS: [a(CscGPS.java:223)] CSC don't have any AGPS value.
+2025-09-16 06:39:03.359Z D/CscGPS: [a(CscGPS.java:236)] CSCGPS.GPSUpdate
+2025-09-16 06:39:03.361Z D/CscUpdateService: [d(CscUpdateService.java:143)] cscUpdate done (11)
+2025-09-16 06:39:03.363Z D/CscUpdateService: [d(CscUpdateService.java:76)] cscUpdate start [i.E] (12)
+2025-09-16 06:39:03.364Z I/CscParser: [f(CscParser.java:44)] getCustomerPath : omc customer file can read
+2025-09-16 06:39:03.364Z D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2025-09-16 06:39:03.366Z I/CscWbAmr: [g(CscWbAmr.java:99)] Network numbers : 21
+2025-09-16 06:39:03.367Z I/CscWbAmr: [g(CscWbAmr.java:202)] WB-AMR num: 1
+2025-09-16 06:39:03.367Z I/CscWbAmr: [g(CscWbAmr.java:276)] netName  : default /  WB-AMR : on
+2025-09-16 06:39:03.374Z D/CscUpdateService: [d(CscUpdateService.java:143)] cscUpdate done (12)
+2025-09-16 06:39:03.375Z D/CscUpdateService: [d(CscUpdateService.java:76)] cscUpdate start [i.a] (13)
+2025-09-16 06:39:03.376Z W/CSCAudiomanager: [a(CscAudioManager.java:5)] CscAudioManager::update
+2025-09-16 06:39:03.376Z D/CscUpdateService: [d(CscUpdateService.java:143)] cscUpdate done (13)
+2025-09-16 06:39:03.376Z D/CscUpdateService: [d(CscUpdateService.java:76)] cscUpdate start [i.q] (14)
+2025-09-16 06:39:03.377Z D/CscUpdateService: [d(CscUpdateService.java:143)] cscUpdate done (14)
+2025-09-16 06:39:03.377Z D/CscUpdateService: [d(CscUpdateService.java:76)] cscUpdate start [i.A] (15)
+2025-09-16 06:39:03.377Z I/CscParser: [f(CscParser.java:44)] getCustomerPath : omc customer file can read
+2025-09-16 06:39:03.378Z D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2025-09-16 06:39:03.380Z W/CSCSettings: [a(CscSettings.java:25)] Setting Data roaming mode for ZTO
+2025-09-16 06:39:03.380Z W/CSCSettings: [a(CscSettings.java:26)] Setting Call end tone
+2025-09-16 06:39:03.408Z D/CSCSettings: [a(CscSettings.java:33)] Call end tone not found
+2025-09-16 06:39:03.408Z W/CSCSettings: [a(CscSettings.java:34)] Setting Call connect tone
+2025-09-16 06:39:03.410Z D/CSCSettings: [a(CscSettings.java:41)] Call connect tone not found
+2025-09-16 06:39:03.410Z W/CSCSettings: [a(CscSettings.java:42)] Setting Call MinuteMind
+2025-09-16 06:39:03.414Z D/CSCSettings: [a(CscSettings.java:49)] Call  MinuteMind not found
+2025-09-16 06:39:03.414Z W/CSCSettings: [a(CscSettings.java:50)] Setting Alert on call
+2025-09-16 06:39:03.415Z D/CSCSettings: [a(CscSettings.java:57)] Alert on call not found
+2025-09-16 06:39:03.416Z W/CSCSettings: [a(CscSettings.java:58)] Setting Auto redial
+2025-09-16 06:39:03.424Z D/CSCSettings: [a(CscSettings.java:65)] Auto redial not found
+2025-09-16 06:39:03.425Z W/CSCSettings: [a(CscSettings.java:66)] Setting Call noise reduction
+2025-09-16 06:39:03.438Z D/CSCSettings: [a(CscSettings.java:73)] Call noise reduction not found
+2025-09-16 06:39:03.438Z W/CSCSettings: [a(CscSettings.java:74)] Setting Call extra volume
+2025-09-16 06:39:03.441Z D/CSCSettings: [a(CscSettings.java:81)] Call extra volume not found
+2025-09-16 06:39:03.441Z D/CSCSettings: [a(CscSettings.java:88)] VisiblePassword is not found
+2025-09-16 06:39:03.442Z D/CSCSettings: [a(CscSettings.java:101)] Timezone Update is not found
+2025-09-16 06:39:03.442Z D/CSCSettings: [a(CscSettings.java:105)] Media volume is not found
+2025-09-16 06:39:03.442Z D/CSCSettings: [a(CscSettings.java:111)] Notification volume is not found
+2025-09-16 06:39:03.443Z D/CSCSettings: [a(CscSettings.java:115)] Ring Volume is not found
+2025-09-16 06:39:03.443Z D/CSCSettings: [a(CscSettings.java:119)] ALARM Volume is not found
+2025-09-16 06:39:03.443Z D/CSCSettings: [a(CscSettings.java:140)] RngToneAlertType is not found
+2025-09-16 06:39:03.444Z D/CSCSettings: [a(CscSettings.java:152)] BackLight Time is not found
+2025-09-16 06:39:03.444Z W/CSCSettings: [a(CscSettings.java:154)] Settings.Main.Sound.TouchTone
+2025-09-16 06:39:03.445Z D/CSCSettings: [a(CscSettings.java:163)] KeyTones is not found
+2025-09-16 06:39:03.446Z D/CSCSettings: [a(CscSettings.java:168)] Time Zone format not found
+2025-09-16 06:39:03.446Z W/CSCSettings: [a(CscSettings.java:170)] Setting time format
+2025-09-16 06:39:03.448Z D/CSCSettings: [a(CscSettings.java:182)] eManual URL is not found.
+2025-09-16 06:39:03.449Z D/CSCSettings: [a(CscSettings.java:189)] Setting Power Saving Mode is not found
+2025-09-16 06:39:03.449Z D/CSCSettings: [a(CscSettings.java:198)] Wifi SleepPolicy is not found
+2025-09-16 06:39:03.450Z D/CSCSettings: [a(CscSettings.java:208)] Setting Wifi On/Off is not found
+2025-09-16 06:39:03.450Z D/CSCSettings: [a(CscSettings.java:217)] Setting Wifi CheckInternet On/Off is not found
+2025-09-16 06:39:03.450Z D/CSCSettings: [a(CscSettings.java:231)] GPS Satelites is not found
+2025-09-16 06:39:03.451Z W/CSCSettings: [a(CscSettings.java:238)] AutoSyncCommon not found
+2025-09-16 06:39:03.451Z I/CscParser: [f(CscParser.java:44)] getCustomerPath : omc customer file can read
+2025-09-16 06:39:03.452Z W/CSCSettings: [i(CscSettings.java:5)] Setting Country Certification info
+2025-09-16 06:39:03.452Z D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2025-09-16 06:39:03.456Z D/CSCSettings: [a(CscSettings.java:261)] DirctCall is not found
+2025-09-16 06:39:03.457Z D/CSCSettings: [a(CscSettings.java:270)] SmartAlert is not found
+2025-09-16 06:39:03.457Z D/CSCSettings: [a(CscSettings.java:279)] TurnOver is not found
+2025-09-16 06:39:03.458Z D/CSCSettings: [a(CscSettings.java:288)] PalmSwipe is not found
+2025-09-16 06:39:03.458Z D/CSCSettings: [a(CscSettings.java:297)] PalmTouch is not found
+2025-09-16 06:39:03.458Z D/CSCSettings: [a(CscSettings.java:298)] update ringtones after download from omc agent
+2025-09-16 06:39:03.459Z I/CscParser: [f(CscParser.java:44)] getCustomerPath : omc customer file can read
+2025-09-16 06:39:03.459Z D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2025-09-16 06:39:03.461Z W/CSCSettings: [l(CscSettings.java:13)] Setting Ringtones (type) : 1
+2025-09-16 06:39:03.462Z D/CscParser: [b(CscParser.java:128)] RingTone: null
+2025-09-16 06:39:03.462Z D/CscParser: [b(CscParser.java:128)] RingTone: null
+2025-09-16 06:39:03.463Z I/CSCSettings: [l(CscSettings.java:36)] 1. tagString: null , tagDeault = null
+2025-09-16 06:39:03.463Z I/CscParser: [f(CscParser.java:44)] getCustomerPath : omc customer file can read
+2025-09-16 06:39:03.464Z D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2025-09-16 06:39:03.465Z W/CSCSettings: [l(CscSettings.java:13)] Setting Ringtones (type) : 2
+2025-09-16 06:39:03.466Z D/CscParser: [b(CscParser.java:128)] MessageTone: null
+2025-09-16 06:39:03.488Z D/CscParser: [b(CscParser.java:128)] MessageTone: null
+2025-09-16 06:39:03.488Z I/CSCSettings: [l(CscSettings.java:36)] 1. tagString: null , tagDeault = null
+2025-09-16 06:39:03.489Z I/CscParser: [f(CscParser.java:44)] getCustomerPath : omc customer file can read
+2025-09-16 06:39:03.489Z D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2025-09-16 06:39:03.491Z W/CSCSettings: [l(CscSettings.java:13)] Setting Ringtones (type) : 4
+2025-09-16 06:39:03.492Z D/CscParser: [b(CscParser.java:128)] AlarmTone: null
+2025-09-16 06:39:03.492Z I/CSCSettings: [l(CscSettings.java:36)] 1. tagString: null , tagDeault = null
+2025-09-16 06:39:03.492Z I/CscParser: [f(CscParser.java:44)] getCustomerPath : omc customer file can read
+2025-09-16 06:39:03.493Z D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2025-09-16 06:39:03.498Z W/CSCSettings: [l(CscSettings.java:13)] Setting Ringtones (type) : 128
+2025-09-16 06:39:03.498Z D/CscParser: [b(CscParser.java:128)] RingTone: null
+2025-09-16 06:39:03.499Z D/CscParser: [b(CscParser.java:128)] RingTone: null
+2025-09-16 06:39:03.499Z D/CscParser: [b(CscParser.java:128)] RingTone: null
+2025-09-16 06:39:03.500Z D/CscParser: [b(CscParser.java:128)] RingTone: null
+2025-09-16 06:39:03.500Z I/CSCSettings: [l(CscSettings.java:36)] 1. tagString: null , tagDeault = null
+2025-09-16 06:39:03.501Z I/CscParser: [f(CscParser.java:44)] getCustomerPath : omc customer file can read
+2025-09-16 06:39:03.501Z D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2025-09-16 06:39:03.503Z W/CSCSettings: [l(CscSettings.java:13)] Setting Ringtones (type) : 256
+2025-09-16 06:39:03.504Z D/CscParser: [b(CscParser.java:128)] MessageTone: null
+2025-09-16 06:39:03.505Z D/CscParser: [b(CscParser.java:128)] MessageTone: null
+2025-09-16 06:39:03.506Z D/CscParser: [b(CscParser.java:128)] MessageTone: null
+2025-09-16 06:39:03.508Z D/CscParser: [b(CscParser.java:128)] MessageTone: null
+2025-09-16 06:39:03.509Z I/CSCSettings: [l(CscSettings.java:36)] 1. tagString: null , tagDeault = null
+2025-09-16 06:39:03.514Z D/CscUpdateService: [d(CscUpdateService.java:143)] cscUpdate done (15)
+2025-09-16 06:39:03.514Z D/CscUpdateService: [n(CscUpdateService.java:9)] SendModemSettingIntent : false
+2025-09-16 06:39:03.541Z D/CscUpdateService: [i(CscUpdateService.java:5)] checkAndSendModemSettingIntent
+2025-09-16 06:39:03.541Z I/CscUpdateService: [i(CscUpdateService.java:40)] Support MHS Dongle: 
+2025-09-16 06:39:03.542Z I/CscUpdateService: [j(CscUpdateService.java:5)] checkUpdateDoneCondition
+2025-09-16 06:39:03.543Z I/CscUtil: [o(CscUtil.java:101)] OMC resource(0) is not preloaded
+2025-09-16 06:39:03.545Z I/CscDevice: [j(CscUpdateService.java:96)] support multi sim 
+2025-09-16 06:39:03.546Z I/CscUpdateService: [j(CscUpdateService.java:101)] This model is OMC and resource is not preloaded, check default ringtone of Multi SIM
+2025-09-16 06:39:03.547Z I/CscUtil: [o(CscUtil.java:101)] OMC resource(1) is not preloaded
+2025-09-16 06:39:03.549Z I/CscDevice: [j(CscUpdateService.java:225)] support multi sim 
+2025-09-16 06:39:03.549Z D/CscUpdateService: [j(CscUpdateService.java:230)] This model is OMC and resource is not preloaded, check default Notification of Multi SIM
+2025-09-16 06:39:03.554Z I/CscUtil: [o(CscUtil.java:101)] OMC resource(2) is not preloaded
+2025-09-16 06:39:03.555Z I/CscUtil: [r(CscUtil.java:46)] isWifiOnly = false
+2025-09-16 06:39:03.556Z D/CscUpdateService: [j(CscUpdateService.java:531)] check update done condition is RingtoneSet/RingtoneSetSecond/NotificationSet/NotificationSetSecond/AlarmSet/
+2025-09-16 06:39:03.560Z I/CscChromeBrowser: [e(CscChromeBrowser.java:5)] deleteBookmarks()
+2025-09-16 06:39:03.576Z I/CscUtil: [v(CscUtil.java:5)] setCscUpdated
+2025-09-16 06:39:03.577Z I/CscUtil: [v(CscUtil.java:52)] setCscUpdated userId : 0
+2025-09-16 06:39:03.578Z I/CscUtil: [v(CscUtil.java:65)] add new userID!!! 
+2025-09-16 06:39:03.578Z I/CscUtil: [v(CscUtil.java:88)] add new userID!!! a : 1
+2025-09-16 06:39:03.587Z I/CscUtil: [v(CscUtil.java:116)] set persist.sys.prev_salescode : ZTO
+2025-09-16 06:39:03.588Z I/CscUtil: [x(CscUtil.java:5)] setOmcNwCodeUpdated
+2025-09-16 06:39:03.598Z I/CscUtil: [x(CscUtil.java:61)] set persist.sys.prev_omcnwcode : ZTO
+2025-09-16 06:39:03.599Z I/CscUtil: [x(CscUtil.java:75)] setOmcNwCode2Updated
+2025-09-16 06:39:03.610Z I/CscUtil: [x(CscUtil.java:130)] set persist.sys.prev_omcnwcode2 : ZTO
+2025-09-16 06:39:03.615Z I/CscParser: [f(CscParser.java:44)] getCustomerPath : omc customer file can read
+2025-09-16 06:39:03.616Z D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2025-09-16 06:39:03.618Z D/CscUtil: [w(CscUtil.java:40)] Set CscVersion to A266MOWO4BYI3
+2025-09-16 06:39:03.618Z D/CscUtil: [w(CscUtil.java:57)] Set CscEdition to ED0002
+2025-09-16 06:39:03.628Z D/CscUtil: [A(CscUtil.java:17)] setTriggeredByLateActivation: false
+2025-09-16 06:39:03.629Z I/CscUpdateService: [d(CscUpdateService.java:265)] cscUpdate() finish
+2025-09-16 06:39:03.629Z D/CscFileLog: [l(CscFileLog.java:18)] stop logging: CscUpdate
+2025-09-16 06:39:03.630Z I/CscFileLog: [l(CscFileLog.java:52)] CSC versionName : 1.0.1.0

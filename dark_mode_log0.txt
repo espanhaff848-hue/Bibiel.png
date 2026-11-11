@@ -1,0 +1,13 @@
+10-28 20:08:17.260: V UiModeManager(1358): updateNightModeFromSettings : com.android.server.UiModeManagerService$1@58e9602 userID : 0
+10-29 14:09:01.070: V UiModeManager(1713): updateNightModeFromSettings : com.android.server.UiModeManagerService$1@b1f7884 userID : 0
+10-29 18:57:47.873: V UiModeManager(1713): setNightMode : 1, customModeType : -1, by 1713, android.uid.system:1000, android
+11-02 09:12:30.214: V UiModeManager(1427): updateNightModeFromSettings : com.android.server.UiModeManagerService$1@2ec2b1c userID : 0
+11-02 10:31:29.349: V UiModeManager(1427): setNightMode : 2, customModeType : -1, by 1427, android.uid.system:1000, android
+11-03 14:31:50.494: V UiModeManager(1427): setNightMode : 1, customModeType : -1, by 1427, android.uid.system:1000, android
+11-03 19:06:59.564: V UiModeManager(1359): updateNightModeFromSettings : com.android.server.UiModeManagerService$1@722401a userID : 0
+11-03 23:02:59.971: V UiModeManager(1359): setNightMode : 2, customModeType : -1, by 1359, android.uid.system:1000, android
+11-04 15:10:48.770: V UiModeManager(1359): setNightMode : 1, customModeType : -1, by 1359, android.uid.system:1000, android
+11-04 20:57:55.334: V UiModeManager(1405): updateNightModeFromSettings : com.android.server.UiModeManagerService$1@548c7d9 userID : 0
+11-05 22:41:06.687: V UiModeManager(1408): updateNightModeFromSettings : com.android.server.UiModeManagerService$1@23426de userID : 0
+11-09 17:54:35.031: V UiModeManager(1404): updateNightModeFromSettings : com.android.server.UiModeManagerService$1@db8f7c userID : 0
+11-10 20:03:05.515: V UiModeManager(1409): updateNightModeFromSettings : com.android.server.UiModeManagerService$1@4dcc595 userID : 0

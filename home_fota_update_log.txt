@@ -1,0 +1,271 @@
+2026-10-29 14:10:09.583-03:00 I/CscUpdateService: [onStartCommand(CscUpdateService.java:105)] set_CSC_version
+2026-10-29 14:10:09.584-03:00 I/CscParser: [onStartCommand(CscUpdateService.java:109)] getSWConfigPath : omc SW_Configuration file can read
+2026-10-29 14:10:09.585-03:00 D/CscParser: [m(CscParser.java:41)] update(): /prism/etc/SW_Configuration.xml file exist
+2026-10-29 14:10:09.595-03:00 I/CscUtil: [r(CscUtil.java:46)] isWifiOnly = false
+2026-10-29 14:10:09.602-03:00 I/CscUpdateService: [onStartCommand(CscUpdateService.java:139)] PATH_CSCNAME =CustomerDataSet.CSCName
+2026-10-29 14:10:09.622-03:00 I/CscUtil: [B(CscUtil.java:38)] checkChameleonStr : null
+2026-10-29 14:10:09.623-03:00 I/CscUtil: [j(CscUtil.java:21)] isCscUpdated userid : 0
+2026-10-29 14:10:09.623-03:00 I/CscUtil: [j(CscUtil.java:60)] isCscUpdated : true
+2026-10-29 14:10:09.624-03:00 I/CscUpdateService: [onStartCommand(CscUpdateService.java:183)] normal boot
+2026-10-29 14:10:09.630-03:00 D/CscUtil: [onStartCommand(CscUpdateService.java:188)] isNewCscVersion : true
+2026-10-29 14:10:09.631-03:00 I/CscUpdateService: [onStartCommand(CscUpdateService.java:189)] isNewCscVersion : true, setCscUpdated before homefota update
+2026-10-29 14:10:09.631-03:00 I/CscUtil: [v(CscUtil.java:5)] setCscUpdated
+2026-10-29 14:10:09.631-03:00 I/CscUtil: [v(CscUtil.java:52)] setCscUpdated userId : 0
+2026-10-29 14:10:09.632-03:00 I/CscUtil: [v(CscUtil.java:94)] else!!! setCscUpdated userId : 
+2026-10-29 14:10:09.638-03:00 I/CscUtil: [v(CscUtil.java:116)] set persist.sys.prev_salescode : ZTO
+2026-10-29 14:10:09.638-03:00 I/CscUpdateService: [onStartCommand(CscUpdateService.java:192)] OMC model. call setOmcNwCodeUpdated() in advance.
+2026-10-29 14:10:09.638-03:00 I/CscUtil: [x(CscUtil.java:5)] setOmcNwCodeUpdated
+2026-10-29 14:10:09.640-03:00 I/CscUtil: [x(CscUtil.java:61)] set persist.sys.prev_omcnwcode : ZTO
+2026-10-29 14:10:09.641-03:00 I/CscUtil: [x(CscUtil.java:75)] setOmcNwCode2Updated
+2026-10-29 14:10:09.643-03:00 I/CscUtil: [x(CscUtil.java:130)] set persist.sys.prev_omcnwcode2 : ZTO
+2026-10-29 14:10:09.643-03:00 I/CscUtil: [d(CscUtil.java:7)] getCscUpdated
+2026-10-29 14:10:09.644-03:00 I/CscUtil: [p(CscUtil.java:27)] Previous SalesCode : ZTO
+2026-10-29 14:10:09.644-03:00 I/CscUtil: [p(CscUtil.java:44)] Current SalesCode : ZTO
+2026-10-29 14:10:09.645-03:00 I/CscUtil: [e(CscUtil.java:5)] getOmcInstall
+2026-10-29 14:10:09.645-03:00 I/CscUtil: [f(CscUtil.java:5)] getOmcMount
+2026-10-29 14:10:09.645-03:00 I/CscUtil: [f(CscUtil.java:5)] getOmcMount
+2026-10-29 14:10:09.646-03:00 I/CscUpdateService: [onStartCommand(CscUpdateService.java:222)] This is normal boot : CSC not update
+2026-10-29 14:10:09.659-03:00 I/CscUpdateService: [onStartCommand(CscUpdateService.java:239)] CSC Version changed
+2026-10-29 14:10:09.660-03:00 D/CscUtil: [g(CscUtil.java:29)] Result Code:200
+2026-10-29 14:10:09.661-03:00 D/CscUtil: [b(CscUtil.java:97)] cleanPreviousMediaDbForSinglePath( resPath = /omr/res , SalesCode = ZTO)
+2026-10-29 14:10:09.666-03:00 I/CscSBrowser: [o(CscSBrowser.java:32)] isPackageInstalled : com.sec.android.app.sbrowser is installed
+2026-10-29 14:10:09.667-03:00 I/CscSBrowser: [o(CscSBrowser.java:32)] isPackageInstalled : com.sec.android.app.sbrowser is installed
+2026-10-29 14:10:09.671-03:00 I/CscUtil: [r(CscUtil.java:46)] isWifiOnly = false
+2026-10-29 14:10:09.680-03:00 I/CscUtil: [r(CscUtil.java:46)] isWifiOnly = false
+2026-10-29 14:10:09.681-03:00 I/CscTgManager: [<init>(CscTgManager.java:476)] makeWorkingList() +e
+2026-10-29 14:10:09.681-03:00 I/CscTgManager: [<init>(CscTgManager.java:476)] makeWorkingList() +m
+2026-10-29 14:10:09.681-03:00 I/CscTgManager: [<init>(CscTgManager.java:476)] makeWorkingList() +a
+2026-10-29 14:10:09.682-03:00 I/CscTgManager: [<init>(CscTgManager.java:476)] makeWorkingList() +l
+2026-10-29 14:10:09.682-03:00 I/CscTgManager: [<init>(CscTgManager.java:476)] makeWorkingList() +o
+2026-10-29 14:10:09.682-03:00 E/CscUtil: [<init>(CscTgManager.java:451)] A package is not installed
+2026-10-29 14:10:09.684-03:00 I/CscTgManager: [<init>(CscTgManager.java:476)] makeWorkingList() +x
+2026-10-29 14:10:09.685-03:00 E/CscUtil: [<init>(CscTgManager.java:451)] A package is not installed
+2026-10-29 14:10:09.686-03:00 I/CscTgManager: [<init>(CscTgManager.java:476)] makeWorkingList() +i
+2026-10-29 14:10:09.687-03:00 I/CscTgManager: [<init>(CscTgManager.java:476)] makeWorkingList() +e
+2026-10-29 14:10:09.688-03:00 I/CscTgManager: [<init>(CscTgManager.java:476)] makeWorkingList() +y
+2026-10-29 14:10:09.690-03:00 I/CscTgManager: [<init>(CscTgManager.java:476)] makeWorkingList() +k
+2026-10-29 14:10:09.691-03:00 I/CscTgManager: [<init>(CscTgManager.java:476)] makeWorkingList() +p
+2026-10-29 14:10:09.691-03:00 I/CscTgManager: [<init>(CscTgManager.java:476)] makeWorkingList() +n
+2026-10-29 14:10:09.692-03:00 I/CscTgManager: [<init>(CscTgManager.java:476)] makeWorkingList() +e0
+2026-10-29 14:10:09.693-03:00 I/CscTgManager: [<init>(CscTgManager.java:476)] makeWorkingList() +a
+2026-10-29 14:10:09.695-03:00 E/CscUtil: [<init>(CscTgManager.java:451)] A package is not installed
+2026-10-29 14:10:09.697-03:00 I/CscTgManager: [<init>(CscTgManager.java:476)] makeWorkingList() +q
+2026-10-29 14:10:09.698-03:00 I/CscTgManager: [<init>(CscTgManager.java:476)] makeWorkingList() +a0
+2026-10-29 14:10:09.699-03:00 I/CscUpdateService: [l(CscUpdateService.java:9)] doUpdateForHomeFOTA start
+2026-10-29 14:10:09.716-03:00 I/CscUtil: [s(CscUtil.java:28)] wake lock acquire!
+2026-10-29 14:10:09.725-03:00 I/CscUpdateService: [onStartCommand(CscUpdateService.java:245)] This is HOME/FOTA boot : CSC is updated
+2026-10-29 14:10:09.735-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:52)] mUpdatablesHomeFOTA start. (com.samsung.sec.android.application.csc.tgmanager.tg.e)
+2026-10-29 14:10:09.737-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:84)] mUpdatablesHomeFOTA done. (com.samsung.sec.android.application.csc.tgmanager.tg.e)
+2026-10-29 14:10:09.738-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:52)] mUpdatablesHomeFOTA start. (g.m)
+2026-10-29 14:10:09.739-03:00 I/CscDRMVerifier: [update(CscDRMVerifier.java:8)] Invalid update type!!
+2026-10-29 14:10:09.740-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:84)] mUpdatablesHomeFOTA done. (g.m)
+2026-10-29 14:10:09.740-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:52)] mUpdatablesHomeFOTA start. (com.samsung.sec.android.application.csc.tgmanager.tg.a)
+2026-10-29 14:10:09.742-03:00 I/CscParser: [f(CscParser.java:55)] getCustomerPath : omc customer file can read
+2026-10-29 14:10:09.742-03:00 D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2026-10-29 14:10:09.748-03:00 I/CscCamera: [update(CscCamera.java:2)] update start
+2026-10-29 14:10:09.749-03:00 I/CscCamera: [update(CscCamera.java:4)] <Multimedia> is not exist.
+2026-10-29 14:10:09.749-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:84)] mUpdatablesHomeFOTA done. (com.samsung.sec.android.application.csc.tgmanager.tg.a)
+2026-10-29 14:10:09.750-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:52)] mUpdatablesHomeFOTA start. (g.l)
+2026-10-29 14:10:09.751-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:84)] mUpdatablesHomeFOTA done. (g.l)
+2026-10-29 14:10:09.752-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:52)] mUpdatablesHomeFOTA start. (g.o)
+2026-10-29 14:10:09.753-03:00 I/CSCLocaleOverlayManager: [update(CscLocaleOverlayManager.java:5)] CscLocaleOverlayManager::update
+2026-10-29 14:10:09.754-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:84)] mUpdatablesHomeFOTA done. (g.o)
+2026-10-29 14:10:09.755-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:52)] mUpdatablesHomeFOTA start. (g.x)
+2026-10-29 14:10:09.756-03:00 I/CscSBrowser: [update(CscSBrowser.java:1)] updateType is 4
+2026-10-29 14:10:09.757-03:00 I/CscUtil: [f(CscUtil.java:5)] getOmcMount
+2026-10-29 14:10:09.758-03:00 I/CscSBrowser: [update(CscSBrowser.java:2)] CscUtil.getOmcMount() :  0
+2026-10-29 14:10:09.758-03:00 E/CscSBrowser: [update(CscSBrowser.java:4)] updateForHomeFOTA() called.
+2026-10-29 14:10:09.759-03:00 E/CscSBrowser: [update(CscSBrowser.java:10)] isUserUnlockedfalse
+2026-10-29 14:10:09.786-03:00 E/CscSBrowser: [update(CscSBrowser.java:15)] updateForHomeFOTA : Phone does not ready to acquire Browser Provider
+2026-10-29 14:10:09.787-03:00 I/CscSBrowser: [r(CscSBrowser.java:17)] setDefaultBrowserPreference() : true
+2026-10-29 14:10:09.795-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:84)] mUpdatablesHomeFOTA done. (g.x)
+2026-10-29 14:10:09.796-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:52)] mUpdatablesHomeFOTA start. (g.i)
+2026-10-29 14:10:09.796-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:84)] mUpdatablesHomeFOTA done. (g.i)
+2026-10-29 14:10:09.797-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:52)] mUpdatablesHomeFOTA start. (g.e)
+2026-10-29 14:10:09.797-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:84)] mUpdatablesHomeFOTA done. (g.e)
+2026-10-29 14:10:09.797-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:52)] mUpdatablesHomeFOTA start. (g.y)
+2026-10-29 14:10:09.797-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:84)] mUpdatablesHomeFOTA done. (g.y)
+2026-10-29 14:10:09.798-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:52)] mUpdatablesHomeFOTA start. (g.k)
+2026-10-29 14:10:09.798-03:00 D/CscConnection: [update(CscConnection.java:20)] Update NWKINFO.
+2026-10-29 14:10:09.798-03:00 E/CscConnection: [update(CscConnection.java:25)] updateHomeFota calls
+2026-10-29 14:10:09.798-03:00 D/CscConnection: [e(CscConnection.java:30)] update force: falsesimSlot:-1
+2026-10-29 14:10:09.799-03:00 I/CscUtil: [j(CscUtil.java:21)] isCscUpdated userid : 0
+2026-10-29 14:10:09.799-03:00 I/CscUtil: [j(CscUtil.java:60)] isCscUpdated : true
+2026-10-29 14:10:09.802-03:00 I/CscUtil: [d(CscUtil.java:7)] getCscUpdated
+2026-10-29 14:10:09.803-03:00 I/CscUtil: [p(CscUtil.java:27)] Previous SalesCode : ZTO
+2026-10-29 14:10:09.804-03:00 I/CscUtil: [p(CscUtil.java:44)] Current SalesCode : ZTO
+2026-10-29 14:10:09.804-03:00 I/CscUtil: [m(CscUtil.java:21)] isNwCodeChanged(), slotId : 0
+2026-10-29 14:10:09.804-03:00 I/CscUtil: [m(CscUtil.java:35)] getOmcNwCodeUpdated
+2026-10-29 14:10:09.805-03:00 I/CscUtil: [m(CscUtil.java:254)] Previous OMC Network Code : ZTO
+2026-10-29 14:10:09.805-03:00 I/CscUtil: [m(CscUtil.java:271)] Current OMC Network Code : ZTO
+2026-10-29 14:10:09.833-03:00 D/CscDevice: [d(Device.java:49)] no persist.sys.nw_path 0
+2026-10-29 14:10:09.834-03:00 I/CscParser: [e(CscParser.java:86)] getCustomerNwPath (0) : /optics/configs/carriers/single/ZTO/conf
+2026-10-29 14:10:09.834-03:00 D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2026-10-29 14:10:09.836-03:00 E/CscConnection: [e(CscConnection.java:326)] update : force falseslot 0
+2026-10-29 14:10:09.836-03:00 D/CscDevice: [d(Device.java:49)] no persist.sys.nw_path 0
+2026-10-29 14:10:09.837-03:00 I/CscParser: [e(CscParser.java:86)] getCustomerNwPath (0) : /optics/configs/carriers/single/ZTO/conf
+2026-10-29 14:10:09.837-03:00 D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2026-10-29 14:10:09.839-03:00 D/CscConnection: [d(CscConnection.java:16)] parseNwkInfo
+2026-10-29 14:10:09.839-03:00 D/CscDevice: [d(Device.java:49)] no persist.sys.nw_path 0
+2026-10-29 14:10:09.839-03:00 I/CscParser: [e(CscParser.java:86)] getCustomerNwPath (0) : /optics/configs/carriers/single/ZTO/conf
+2026-10-29 14:10:09.840-03:00 D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2026-10-29 14:10:09.843-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : TIM] [plmn : 72402] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2026-10-29 14:10:09.843-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : TIM] [plmn : 72403] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2026-10-29 14:10:09.844-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : TIM] [plmn : 72404] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2026-10-29 14:10:09.844-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : Claro] [plmn : 72405] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2026-10-29 14:10:09.844-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : VIVO] [plmn : 72406] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2026-10-29 14:10:09.844-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : VIVO] [plmn : 72410] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2026-10-29 14:10:09.848-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : VIVO] [plmn : 72411] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2026-10-29 14:10:09.848-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : VIVO] [plmn : 72423] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2026-10-29 14:10:09.848-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : Oi] [plmn : 72416] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2026-10-29 14:10:09.849-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : Oi] [plmn : 72431] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2026-10-29 14:10:09.849-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : Sercomtel] [plmn : 72415] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2026-10-29 14:10:09.854-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : Algar] [plmn : 72432] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2026-10-29 14:10:09.855-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : Algar] [plmn : 72433] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2026-10-29 14:10:09.856-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : Algar] [plmn : 72434] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2026-10-29 14:10:09.857-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : Nextel] [plmn : 72439] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2026-10-29 14:10:09.861-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : Porto Conecta] [plmn : 72454] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2026-10-29 14:10:09.863-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : Surf Telecom] [plmn : 72417] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2026-10-29 14:10:09.864-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : Arqia] [plmn : 72418] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2026-10-29 14:10:09.865-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : Americanet] [plmn : 72426] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2026-10-29 14:10:09.866-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : UNIFIQUE] [plmn : 72429] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2026-10-29 14:10:09.867-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : Brisanet] [plmn : 72477] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 0]
+2026-10-29 14:10:09.875-03:00 D/CscDevice: [d(Device.java:49)] no persist.sys.nw_path 1
+2026-10-29 14:10:09.876-03:00 I/CscParser: [e(CscParser.java:86)] getCustomerNwPath (1) : /optics/configs/carriers/single/ZTO/conf
+2026-10-29 14:10:09.876-03:00 D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2026-10-29 14:10:09.878-03:00 E/CscConnection: [e(CscConnection.java:326)] update : force falseslot 1
+2026-10-29 14:10:09.878-03:00 D/CscDevice: [d(Device.java:49)] no persist.sys.nw_path 1
+2026-10-29 14:10:09.879-03:00 I/CscParser: [e(CscParser.java:86)] getCustomerNwPath (1) : /optics/configs/carriers/single/ZTO/conf
+2026-10-29 14:10:09.879-03:00 D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2026-10-29 14:10:09.881-03:00 D/CscConnection: [d(CscConnection.java:16)] parseNwkInfo
+2026-10-29 14:10:09.881-03:00 D/CscDevice: [d(Device.java:49)] no persist.sys.nw_path 1
+2026-10-29 14:10:09.881-03:00 I/CscParser: [e(CscParser.java:86)] getCustomerNwPath (1) : /optics/configs/carriers/single/ZTO/conf
+2026-10-29 14:10:09.882-03:00 D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2026-10-29 14:10:09.887-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : TIM] [plmn : 72402] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2026-10-29 14:10:09.891-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : TIM] [plmn : 72403] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2026-10-29 14:10:09.892-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : TIM] [plmn : 72404] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2026-10-29 14:10:09.893-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : Claro] [plmn : 72405] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2026-10-29 14:10:09.895-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : VIVO] [plmn : 72406] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2026-10-29 14:10:09.902-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : VIVO] [plmn : 72410] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2026-10-29 14:10:09.903-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : VIVO] [plmn : 72411] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2026-10-29 14:10:09.905-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : VIVO] [plmn : 72423] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2026-10-29 14:10:09.906-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : Oi] [plmn : 72416] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2026-10-29 14:10:09.907-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : Oi] [plmn : 72431] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2026-10-29 14:10:09.908-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : Sercomtel] [plmn : 72415] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2026-10-29 14:10:09.909-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : Algar] [plmn : 72432] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2026-10-29 14:10:09.910-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : Algar] [plmn : 72433] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2026-10-29 14:10:09.912-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : Algar] [plmn : 72434] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2026-10-29 14:10:09.914-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : Nextel] [plmn : 72439] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2026-10-29 14:10:09.915-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : Porto Conecta] [plmn : 72454] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2026-10-29 14:10:09.916-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : Surf Telecom] [plmn : 72417] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2026-10-29 14:10:09.918-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : Arqia] [plmn : 72418] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2026-10-29 14:10:09.919-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : Americanet] [plmn : 72426] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2026-10-29 14:10:09.921-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : UNIFIQUE] [plmn : 72429] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2026-10-29 14:10:09.922-03:00 E/CscConnection: [d(CscConnection.java:338)] [NwkInfo] [nwkname : Brisanet] [plmn : 72477] [codetype : null] [subsetcode : null] [spcode : null] [spname : null] [iccid : null] [simslot : 1]
+2026-10-29 14:10:09.936-03:00 E/CscConnection: [e(CscConnection.java:382)] send intent CSC_SHOW_SIM_PROFILE
+2026-10-29 14:10:09.936-03:00 E/CscConnection: [e(CscConnection.java:389)] update done
+2026-10-29 14:10:09.937-03:00 D/CscConnection: [update(CscConnection.java:33)] updateFOTA, HomeFOTAUpdateType
+2026-10-29 14:10:09.939-03:00 E/CscConnection: [update(CscConnection.java:65)] send intent FOTA_UPDATE
+2026-10-29 14:10:09.940-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:84)] mUpdatablesHomeFOTA done. (g.k)
+2026-10-29 14:10:09.940-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:52)] mUpdatablesHomeFOTA start. (g.p)
+2026-10-29 14:10:09.941-03:00 I/CscNetwork: [update(CscNetwork.java:31)] updateForHomeFOTA
+2026-10-29 14:10:09.941-03:00 I/CscParser: [f(CscParser.java:55)] getCustomerPath : omc customer file can read
+2026-10-29 14:10:09.942-03:00 D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2026-10-29 14:10:09.944-03:00 I/CscParser: [f(CscParser.java:55)] getCustomerPath : omc customer file can read
+2026-10-29 14:10:09.944-03:00 D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2026-10-29 14:10:09.947-03:00 E/CscParser: [g(CscParser.java:103)] getOthersPath : /system/csc/others.xml file exist
+2026-10-29 14:10:09.947-03:00 E/CscParser: [m(CscParser.java:159)] update(): /system/csc/others.xml file not exist
+2026-10-29 14:10:09.948-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:84)] mUpdatablesHomeFOTA done. (g.p)
+2026-10-29 14:10:09.948-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:52)] mUpdatablesHomeFOTA start. (g.n)
+2026-10-29 14:10:09.948-03:00 D/CscDevice: [d(Device.java:49)] no persist.sys.nw_path 0
+2026-10-29 14:10:09.949-03:00 I/CscParser: [d(CscParser.java:54)] getCustomerNwPath : omc customer file can read
+2026-10-29 14:10:09.949-03:00 D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2026-10-29 14:10:09.951-03:00 D/CscGPS: [update(CscGPS.java:24)] CSCGPS.updateParameters
+2026-10-29 14:10:09.952-03:00 D/CscGPS: [update(CscGPS.java:47)] supl host : null
+2026-10-29 14:10:09.952-03:00 D/CscGPS: [update(CscGPS.java:93)] SUPL Host is null or invalid
+2026-10-29 14:10:09.953-03:00 D/CscGPS: [update(CscGPS.java:116)] supl_ver : null
+2026-10-29 14:10:09.953-03:00 D/CscGPS: [update(CscGPS.java:155)] SUPL Ver is null or invalid
+2026-10-29 14:10:09.953-03:00 D/CscGPS: [update(CscGPS.java:178)] supl port : null
+2026-10-29 14:10:09.954-03:00 D/CscGPS: [update(CscGPS.java:201)] SUPL PORT is null or invalid
+2026-10-29 14:10:09.954-03:00 D/CscGPS: [update(CscGPS.java:223)] CSC don't have any AGPS value.
+2026-10-29 14:10:09.954-03:00 D/CscGPS: [update(CscGPS.java:236)] CSCGPS.GPSUpdate
+2026-10-29 14:10:09.956-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:84)] mUpdatablesHomeFOTA done. (g.n)
+2026-10-29 14:10:09.956-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:52)] mUpdatablesHomeFOTA start. (g.e0)
+2026-10-29 14:10:09.957-03:00 I/CscParser: [f(CscParser.java:55)] getCustomerPath : omc customer file can read
+2026-10-29 14:10:09.957-03:00 D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2026-10-29 14:10:09.960-03:00 I/CscWbAmr: [f(CscWbAmr.java:99)] Network numbers : 21
+2026-10-29 14:10:09.961-03:00 I/CscWbAmr: [f(CscWbAmr.java:202)] WB-AMR num: 1
+2026-10-29 14:10:09.961-03:00 I/CscWbAmr: [f(CscWbAmr.java:276)] netName  : default /  WB-AMR : on
+2026-10-29 14:10:09.964-03:00 I/CscWbAmr: [g(CscWbAmr.java:146)] File deletion successed.
+2026-10-29 14:10:09.972-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:84)] mUpdatablesHomeFOTA done. (g.e0)
+2026-10-29 14:10:09.972-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:52)] mUpdatablesHomeFOTA start. (g.a)
+2026-10-29 14:10:09.972-03:00 W/CSCAudiomanager: [update(CscAudioManager.java:5)] CscAudioManager::update
+2026-10-29 14:10:09.973-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:84)] mUpdatablesHomeFOTA done. (g.a)
+2026-10-29 14:10:09.973-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:52)] mUpdatablesHomeFOTA start. (g.q)
+2026-10-29 14:10:09.973-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:84)] mUpdatablesHomeFOTA done. (g.q)
+2026-10-29 14:10:09.974-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:52)] mUpdatablesHomeFOTA start. (g.a0)
+2026-10-29 14:10:09.974-03:00 I/CscParser: [f(CscParser.java:55)] getCustomerPath : omc customer file can read
+2026-10-29 14:10:09.975-03:00 D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2026-10-29 14:10:09.977-03:00 D/CSCSettings: [update(CscSettings.java:5)] updateForHomeFOTA (isNewCscEdtion): false with SalesCode: ZTO
+2026-10-29 14:10:09.977-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:84)] mUpdatablesHomeFOTA done. (g.a0)
+2026-10-29 14:10:09.978-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:133)] mUpdatablesHomeFOTA for NwUpdate start. (com.samsung.sec.android.application.csc.tgmanager.tg.e)
+2026-10-29 14:10:09.978-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:165)] mUpdatablesHomeFOTA for NwUpdate done. (com.samsung.sec.android.application.csc.tgmanager.tg.e)
+2026-10-29 14:10:09.978-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:133)] mUpdatablesHomeFOTA for NwUpdate start. (g.m)
+2026-10-29 14:10:09.979-03:00 I/CscDRMVerifier: [update(CscDRMVerifier.java:8)] Invalid update type!!
+2026-10-29 14:10:09.979-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:165)] mUpdatablesHomeFOTA for NwUpdate done. (g.m)
+2026-10-29 14:10:09.979-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:133)] mUpdatablesHomeFOTA for NwUpdate start. (com.samsung.sec.android.application.csc.tgmanager.tg.a)
+2026-10-29 14:10:09.980-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:165)] mUpdatablesHomeFOTA for NwUpdate done. (com.samsung.sec.android.application.csc.tgmanager.tg.a)
+2026-10-29 14:10:09.980-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:133)] mUpdatablesHomeFOTA for NwUpdate start. (g.l)
+2026-10-29 14:10:09.980-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:165)] mUpdatablesHomeFOTA for NwUpdate done. (g.l)
+2026-10-29 14:10:09.980-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:133)] mUpdatablesHomeFOTA for NwUpdate start. (g.o)
+2026-10-29 14:10:09.980-03:00 I/CSCLocaleOverlayManager: [update(CscLocaleOverlayManager.java:5)] CscLocaleOverlayManager::update
+2026-10-29 14:10:09.981-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:165)] mUpdatablesHomeFOTA for NwUpdate done. (g.o)
+2026-10-29 14:10:09.981-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:133)] mUpdatablesHomeFOTA for NwUpdate start. (g.x)
+2026-10-29 14:10:09.981-03:00 I/CscSBrowser: [update(CscSBrowser.java:1)] updateType is 5
+2026-10-29 14:10:09.982-03:00 I/CscUtil: [f(CscUtil.java:5)] getOmcMount
+2026-10-29 14:10:09.982-03:00 I/CscSBrowser: [update(CscSBrowser.java:2)] CscUtil.getOmcMount() :  0
+2026-10-29 14:10:09.982-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:165)] mUpdatablesHomeFOTA for NwUpdate done. (g.x)
+2026-10-29 14:10:09.982-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:133)] mUpdatablesHomeFOTA for NwUpdate start. (g.i)
+2026-10-29 14:10:09.983-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:165)] mUpdatablesHomeFOTA for NwUpdate done. (g.i)
+2026-10-29 14:10:09.983-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:133)] mUpdatablesHomeFOTA for NwUpdate start. (g.e)
+2026-10-29 14:10:09.983-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:165)] mUpdatablesHomeFOTA for NwUpdate done. (g.e)
+2026-10-29 14:10:09.983-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:133)] mUpdatablesHomeFOTA for NwUpdate start. (g.y)
+2026-10-29 14:10:09.983-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:165)] mUpdatablesHomeFOTA for NwUpdate done. (g.y)
+2026-10-29 14:10:09.984-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:133)] mUpdatablesHomeFOTA for NwUpdate start. (g.k)
+2026-10-29 14:10:09.984-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:165)] mUpdatablesHomeFOTA for NwUpdate done. (g.k)
+2026-10-29 14:10:09.984-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:133)] mUpdatablesHomeFOTA for NwUpdate start. (g.p)
+2026-10-29 14:10:09.984-03:00 I/CscNetwork: [update(CscNetwork.java:22)] updateOmcNwForHomeFOTA
+2026-10-29 14:10:09.984-03:00 D/CscDevice: [d(Device.java:49)] no persist.sys.nw_path 0
+2026-10-29 14:10:09.985-03:00 I/CscParser: [d(CscParser.java:54)] getCustomerNwPath : omc customer file can read
+2026-10-29 14:10:09.985-03:00 D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2026-10-29 14:10:09.987-03:00 I/CscParser: [f(CscParser.java:55)] getCustomerPath : omc customer file can read
+2026-10-29 14:10:09.988-03:00 D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2026-10-29 14:10:09.990-03:00 E/CscParser: [g(CscParser.java:103)] getOthersPath : /system/csc/others.xml file exist
+2026-10-29 14:10:09.991-03:00 E/CscParser: [m(CscParser.java:159)] update(): /system/csc/others.xml file not exist
+2026-10-29 14:10:09.991-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:165)] mUpdatablesHomeFOTA for NwUpdate done. (g.p)
+2026-10-29 14:10:09.991-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:133)] mUpdatablesHomeFOTA for NwUpdate start. (g.n)
+2026-10-29 14:10:09.991-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:165)] mUpdatablesHomeFOTA for NwUpdate done. (g.n)
+2026-10-29 14:10:09.992-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:133)] mUpdatablesHomeFOTA for NwUpdate start. (g.e0)
+2026-10-29 14:10:09.994-03:00 D/CscDevice: [d(Device.java:49)] no persist.sys.nw_path 0
+2026-10-29 14:10:09.996-03:00 I/CscParser: [d(CscParser.java:54)] getCustomerNwPath : omc customer file can read
+2026-10-29 14:10:09.997-03:00 D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2026-10-29 14:10:10.003-03:00 I/CscWbAmr: [f(CscWbAmr.java:99)] Network numbers : 21
+2026-10-29 14:10:10.004-03:00 I/CscWbAmr: [f(CscWbAmr.java:202)] WB-AMR num: 1
+2026-10-29 14:10:10.005-03:00 I/CscWbAmr: [f(CscWbAmr.java:276)] netName  : default /  WB-AMR : on
+2026-10-29 14:10:10.006-03:00 I/CscWbAmr: [g(CscWbAmr.java:146)] File deletion successed.
+2026-10-29 14:10:10.019-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:165)] mUpdatablesHomeFOTA for NwUpdate done. (g.e0)
+2026-10-29 14:10:10.019-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:133)] mUpdatablesHomeFOTA for NwUpdate start. (g.a)
+2026-10-29 14:10:10.020-03:00 W/CSCAudiomanager: [update(CscAudioManager.java:5)] CscAudioManager::update
+2026-10-29 14:10:10.020-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:165)] mUpdatablesHomeFOTA for NwUpdate done. (g.a)
+2026-10-29 14:10:10.020-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:133)] mUpdatablesHomeFOTA for NwUpdate start. (g.q)
+2026-10-29 14:10:10.020-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:165)] mUpdatablesHomeFOTA for NwUpdate done. (g.q)
+2026-10-29 14:10:10.021-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:133)] mUpdatablesHomeFOTA for NwUpdate start. (g.a0)
+2026-10-29 14:10:10.021-03:00 I/CscParser: [f(CscParser.java:55)] getCustomerPath : omc customer file can read
+2026-10-29 14:10:10.021-03:00 D/CscParser: [m(CscParser.java:41)] update(): /optics/configs/carriers/single/ZTO/conf/customer.xml file exist
+2026-10-29 14:10:10.023-03:00 D/CSCSettings: [i(CscSettings.java:31)] updateOmcNwForHomeFOTA (isNewCscEdtion): false with SalesCode: 
+2026-10-29 14:10:10.023-03:00 D/CscUpdateService: [run(R8$$SyntheticClass:165)] mUpdatablesHomeFOTA for NwUpdate done. (g.a0)
+2026-10-29 14:10:10.024-03:00 I/CscUtil: [e(CscUtil.java:5)] getOmcInstall
+2026-10-29 14:10:10.024-03:00 I/CscUtil: [run(R8$$SyntheticClass:233)] initOmcInstall
+2026-10-29 14:10:10.036-03:00 I/CscUpdateService: [run(R8$$SyntheticClass:248)] doUpdateForHomeFOTA finish
+2026-10-29 14:10:10.038-03:00 D/CscFileLog: [l(CscFileLog.java:18)] stop logging: homefota
+2026-10-29 14:10:10.039-03:00 I/CscFileLog: [l(CscFileLog.java:52)] CSC versionName : 1.0.1.0

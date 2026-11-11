@@ -1,0 +1,180 @@
+09-16 06:38:25.610 : 
+09-16 06:38:25.612 : !@mIsUpgrade : false, mIsFirstBoot : true, mFingerprint : null
+09-16 06:38:25.613 : loadInstallHistory() : null
+09-16 06:38:25.615 : persist.sys.storage_preload : 
+09-16 06:38:25.615 : previously, Something's wrong.. mounting hidden as first booting
+09-16 06:38:26.630 : fota - mount hidden area using persist values.
+09-16 06:38:27.631 : cscCode : ZTO
+09-16 06:38:27.632 : Use skipping list : /prism/etc/carriers/single/ZTO/enforcedeletepackage.txt
+09-16 06:38:27.633 : Facebook_stub_preload.apk.gz is Added on mInstallPackageList
+09-16 06:38:27.633 : Use skipping list : /prism/etc/carriers/single/ZTO/enforcedeletepackage.txt
+09-16 06:38:27.654 : already installed : /data/user_de/0/android/cache/PrePackageInstaller/Facebook_stub_preload/Facebook_stub_preload.apk
+09-16 06:38:27.655 : saveInstallHistory() : com.facebook.katana
+09-16 06:38:27.655 : fin
+09-16 06:38:27.655 : [CONFIRMED INSTALLING LIST]
+09-16 06:38:27.655 : apk count is 0. call setDisabled()
+09-16 06:38:27.655 : omcEtcPath : /prism/etc/carriers/single/ZTO/uninstall_preloadpkg.lst
+09-16 06:38:27.660 : Set package state to disabled
+09-16 06:38:27.664 : grantPermission file path : /prism/etc/carriers/single/ZTO/grantpermissionslist.txt
+09-16 06:38:27.665 : call setGrantPermissions
+09-16 06:38:27.668 : !@setDisabled() is FINISHED
+01-23 22:32:42.153 : 
+01-23 22:32:42.155 : !@mIsUpgrade : true, mIsFirstBoot : false, mFingerprint : samsung/a26xsub/a26xs:16/BP2A.250605.031.A3/A266MUBU4BYI3_OWO4BYI3:user/release-keys
+01-23 22:32:42.156 : loadInstallHistory() : com.facebook.katana;
+01-23 22:32:42.159 : persist.sys.storage_preload : 2
+01-23 22:32:42.159 : fota - mount hidden area using persist values.
+01-23 22:32:43.169 : cscCode : ZTO
+01-23 22:32:43.174 : Use skipping list : /prism/etc/carriers/single/ZTO/enforcedeletepackage_after_tss_activated.txt
+01-23 22:32:43.176 : Facebook_stub_preload.apk.gz is Added on mInstallPackageList
+01-23 22:32:43.178 : Use skipping list : /prism/etc/carriers/single/ZTO/enforcedeletepackage_after_tss_activated.txt
+01-23 22:32:43.221 : fin
+01-23 22:32:43.222 : [CONFIRMED INSTALLING LIST]
+01-23 22:32:43.222 : TO INSTALL :: /data/user_de/0/android/cache/PrePackageInstaller/Facebook_stub_preload/Facebook_stub_preload.apk
+01-23 22:32:43.226 : !@INSTALL ------------------ Facebook_stub_preload.apk
+01-23 22:32:43.239 : Write : Facebook_stub_preload.apk
+01-23 22:32:43.279 : Write Facebook_stub_preload.apk Done :40ms
+01-23 22:32:43.320 : FAIL install, com.facebook.katana, msg = INSTALL_FAILED_VERSION_DOWNGRADE: Downgrade detected: Update version code 1 is older than current 467844686
+01-23 22:32:43.323 : installPreloadPackageList() --------------------- COMPLETE
+01-23 22:32:43.323 : omcEtcPath : /prism/etc/carriers/single/ZTO/uninstall_preloadpkg.lst
+01-23 22:32:43.334 : Set package state to disabled
+01-23 22:32:43.336 : Waiting for cache flush...
+01-23 22:32:44.375 : !@setDisabled() is FINISHED
+02-07 07:18:24.138 : 
+02-07 07:18:24.139 : !@mIsUpgrade : true, mIsFirstBoot : false, mFingerprint : samsung/a26xsub/a26xs:16/BP2A.250605.031.A3/A266MUBS6BYL1_OWO6BYL1:user/release-keys
+02-07 07:18:24.140 : loadInstallHistory() : com.facebook.katana;
+02-07 07:18:24.142 : persist.sys.storage_preload : 2
+02-07 07:18:24.142 : fota - mount hidden area using persist values.
+02-07 07:18:25.150 : cscCode : ZTO
+02-07 07:18:25.159 : Use skipping list : /prism/etc/carriers/single/ZTO/enforcedeletepackage_after_tss_activated.txt
+02-07 07:18:25.163 : Facebook_stub_preload.apk.gz is Added on mInstallPackageList
+02-07 07:18:25.166 : Use skipping list : /prism/etc/carriers/single/ZTO/enforcedeletepackage_after_tss_activated.txt
+02-07 07:18:25.207 : fin
+02-07 07:18:25.209 : [CONFIRMED INSTALLING LIST]
+02-07 07:18:25.209 : TO INSTALL :: /data/user_de/0/android/cache/PrePackageInstaller/Facebook_stub_preload/Facebook_stub_preload.apk
+02-07 07:18:25.213 : !@INSTALL ------------------ Facebook_stub_preload.apk
+02-07 07:18:25.222 : Write : Facebook_stub_preload.apk
+02-07 07:18:25.263 : Write Facebook_stub_preload.apk Done :41ms
+02-07 07:18:25.305 : FAIL install, com.facebook.katana, msg = INSTALL_FAILED_VERSION_DOWNGRADE: Downgrade detected: Update version code 1 is older than current 468415488
+02-07 07:18:25.310 : installPreloadPackageList() --------------------- COMPLETE
+02-07 07:18:25.312 : omcEtcPath : /prism/etc/carriers/single/ZTO/uninstall_preloadpkg.lst
+02-07 07:18:25.333 : Set package state to disabled
+02-07 07:18:25.335 : Waiting for cache flush...
+02-07 07:18:26.363 : !@setDisabled() is FINISHED
+03-14 02:09:07.590 : 
+03-14 02:09:07.596 : !@mIsUpgrade : true, mIsFirstBoot : false, mFingerprint : samsung/a26xsub/a26xs:16/BP2A.250605.031.A3/A266MUBS7BZA3_OWO7BZA3:user/release-keys
+03-14 02:09:07.598 : loadInstallHistory() : com.facebook.katana;
+03-14 02:09:07.600 : persist.sys.storage_preload : 2
+03-14 02:09:07.600 : fota - mount hidden area using persist values.
+03-14 02:09:08.615 : cscCode : ZTO
+03-14 02:09:08.621 : Use skipping list : /prism/etc/carriers/single/ZTO/enforcedeletepackage_after_tss_activated.txt
+03-14 02:09:08.623 : Facebook_stub_preload.apk.gz is Added on mInstallPackageList
+03-14 02:09:08.624 : Use skipping list : /prism/etc/carriers/single/ZTO/enforcedeletepackage_after_tss_activated.txt
+03-14 02:09:08.679 : fin
+03-14 02:09:08.680 : [CONFIRMED INSTALLING LIST]
+03-14 02:09:08.680 : TO INSTALL :: /data/user_de/0/android/cache/PrePackageInstaller/Facebook_stub_preload/Facebook_stub_preload.apk
+03-14 02:09:08.683 : !@INSTALL ------------------ Facebook_stub_preload.apk
+03-14 02:09:08.690 : Write : Facebook_stub_preload.apk
+03-14 02:09:08.764 : Write Facebook_stub_preload.apk Done :74ms
+03-14 02:09:08.815 : FAIL install, com.facebook.katana, msg = INSTALL_FAILED_VERSION_DOWNGRADE: Downgrade detected: Update version code 1 is older than current 469217515
+03-14 02:09:08.816 : installPreloadPackageList() --------------------- COMPLETE
+03-14 02:09:08.816 : omcEtcPath : /prism/etc/carriers/single/ZTO/uninstall_preloadpkg.lst
+03-14 02:09:08.825 : Set package state to disabled
+03-14 02:09:08.826 : Waiting for cache flush...
+03-14 02:09:09.851 : !@setDisabled() is FINISHED
+05-01 04:07:49.967 : 
+05-01 04:07:49.968 : !@mIsUpgrade : true, mIsFirstBoot : false, mFingerprint : samsung/a26xsub/a26xs:16/BP2A.250605.031.A3/A266MUBS8BZB6_OWO8BZB6:user/release-keys
+05-01 04:07:49.969 : loadInstallHistory() : com.facebook.katana;
+05-01 04:07:49.973 : persist.sys.storage_preload : 2
+05-01 04:07:49.973 : fota - mount hidden area using persist values.
+05-01 04:07:50.982 : cscCode : ZTO
+05-01 04:07:50.987 : Use skipping list : /prism/etc/carriers/single/ZTO/enforcedeletepackage_after_tss_activated.txt
+05-01 04:07:50.990 : Facebook_stub_preload.apk.gz is Added on mInstallPackageList
+05-01 04:07:50.993 : Use skipping list : /prism/etc/carriers/single/ZTO/enforcedeletepackage_after_tss_activated.txt
+05-01 04:07:51.052 : fin
+05-01 04:07:51.054 : [CONFIRMED INSTALLING LIST]
+05-01 04:07:51.055 : TO INSTALL :: /data/user_de/0/android/cache/PrePackageInstaller/Facebook_stub_preload/Facebook_stub_preload.apk
+05-01 04:07:51.058 : !@INSTALL ------------------ Facebook_stub_preload.apk
+05-01 04:07:51.062 : Write : Facebook_stub_preload.apk
+05-01 04:07:51.101 : Write Facebook_stub_preload.apk Done :39ms
+05-01 04:07:51.139 : FAIL install, com.facebook.katana, msg = INSTALL_FAILED_VERSION_DOWNGRADE: Downgrade detected: Update version code 1 is older than current 470619311
+05-01 04:07:51.142 : installPreloadPackageList() --------------------- COMPLETE
+05-01 04:07:51.142 : omcEtcPath : /prism/etc/carriers/single/ZTO/uninstall_preloadpkg.lst
+05-01 04:07:51.149 : Set package state to disabled
+05-01 04:07:51.150 : Waiting for cache flush...
+05-01 04:07:52.177 : !@setDisabled() is FINISHED
+07-05 00:14:27.258 : 
+07-05 00:14:27.261 : !@mIsUpgrade : true, mIsFirstBoot : false, mFingerprint : samsung/a26xsub/a26xs:16/BP2A.250605.031.A3/A266MUBS9BZD2_OWO9BZD2:user/release-keys
+07-05 00:14:27.264 : loadInstallHistory() : com.facebook.katana;
+07-05 00:14:27.266 : persist.sys.storage_preload : 2
+07-05 00:14:27.266 : fota - mount hidden area using persist values.
+07-05 00:14:28.278 : cscCode : ZTO
+07-05 00:14:28.290 : Use skipping list : /prism/etc/carriers/single/ZTO/enforcedeletepackage_after_tss_activated.txt
+07-05 00:14:28.295 : Facebook_stub_preload.apk.gz is Added on mInstallPackageList
+07-05 00:14:28.299 : Use skipping list : /prism/etc/carriers/single/ZTO/enforcedeletepackage_after_tss_activated.txt
+07-05 00:14:28.361 : fin
+07-05 00:14:28.363 : [CONFIRMED INSTALLING LIST]
+07-05 00:14:28.364 : TO INSTALL :: /data/user_de/0/android/cache/PrePackageInstaller/Facebook_stub_preload/Facebook_stub_preload.apk
+07-05 00:14:28.369 : !@INSTALL ------------------ Facebook_stub_preload.apk
+07-05 00:14:28.379 : Write : Facebook_stub_preload.apk
+07-05 00:14:28.399 : Write Facebook_stub_preload.apk Done :20ms
+07-05 00:14:28.457 : FAIL install, com.facebook.katana, msg = INSTALL_FAILED_VERSION_DOWNGRADE: Downgrade detected: Update version code 1 is older than current 472527904
+07-05 00:14:28.458 : installPreloadPackageList() --------------------- COMPLETE
+07-05 00:14:28.459 : omcEtcPath : /prism/etc/carriers/single/ZTO/uninstall_preloadpkg.lst
+07-05 00:14:28.471 : Set package state to disabled
+07-05 00:14:28.473 : Waiting for cache flush...
+07-05 00:14:29.510 : !@setDisabled() is FINISHED
+07-27 18:14:30.337 : 
+07-27 18:14:30.343 : !@mIsUpgrade : true, mIsFirstBoot : false, mFingerprint : samsung/a26xsub/a26xs:16/BP4A.251205.006/A266MUBU9CZEA_OWO9CZEA:user/release-keys
+07-27 18:14:30.347 : loadInstallHistory() : com.facebook.katana;
+07-27 18:14:30.350 : persist.sys.storage_preload : 2
+07-27 18:14:30.350 : fota - mount hidden area using persist values.
+07-27 18:14:31.374 : cscCode : ZTO
+07-27 18:14:31.379 : Use skipping list : /prism/etc/carriers/single/ZTO/enforcedeletepackage_after_tss_activated.txt
+07-27 18:14:31.383 : Facebook_stub_preload.apk.gz is Added on mInstallPackageList
+07-27 18:14:31.386 : Use skipping list : /prism/etc/carriers/single/ZTO/enforcedeletepackage_after_tss_activated.txt
+07-27 18:14:31.435 : fin
+07-27 18:14:31.436 : [CONFIRMED INSTALLING LIST]
+07-27 18:14:31.436 : TO INSTALL :: /data/user_de/0/android/cache/PrePackageInstaller/Facebook_stub_preload/Facebook_stub_preload.apk
+07-27 18:14:31.439 : !@INSTALL ------------------ Facebook_stub_preload.apk
+07-27 18:14:31.449 : Write : Facebook_stub_preload.apk
+07-27 18:14:31.462 : Write Facebook_stub_preload.apk Done :13ms
+07-27 18:14:31.514 : FAIL install, com.facebook.katana, msg = INSTALL_FAILED_VERSION_DOWNGRADE: Downgrade detected: Update version code 1 is older than current 473224515
+07-27 18:14:31.519 : installPreloadPackageList() --------------------- COMPLETE
+07-27 18:14:31.520 : omcEtcPath : /prism/etc/carriers/single/ZTO/uninstall_preloadpkg.lst
+07-27 18:14:31.534 : Set package state to disabled
+07-27 18:14:31.536 : Waiting for cache flush...
+07-27 18:14:32.568 : !@setDisabled() is FINISHED
+09-18 00:07:04.641 : 
+09-18 00:07:04.644 : !@mIsUpgrade : true, mIsFirstBoot : false, mFingerprint : samsung/a26xsub/a26xs:16/BP4A.251205.006/A266MUBSACZG1_OWOACZG1:user/release-keys
+09-18 00:07:04.645 : loadInstallHistory() : com.facebook.katana;
+09-18 00:07:04.647 : persist.sys.storage_preload : 2
+09-18 00:07:04.648 : fota - mount hidden area using persist values.
+09-18 00:07:05.689 : cscCode : ZTO
+09-18 00:07:05.716 : Use skipping list : /prism/etc/carriers/single/ZTO/enforcedeletepackage_after_tss_activated.txt
+09-18 00:07:05.717 : Facebook_stub_preload.apk.gz is Added on mInstallPackageList
+09-18 00:07:05.718 : Use skipping list : /prism/etc/carriers/single/ZTO/enforcedeletepackage_after_tss_activated.txt
+09-18 00:07:05.745 : new : /data/user_de/0/android/cache/PrePackageInstaller/Facebook_stub_preload/Facebook_stub_preload.apk
+09-18 00:07:05.745 : fin
+09-18 00:07:05.745 : removed by user : /data/user_de/0/android/cache/PrePackageInstaller/Facebook_stub_preload/Facebook_stub_preload.apk
+09-18 00:07:05.746 : [CONFIRMED INSTALLING LIST]
+09-18 00:07:05.746 : apk count is 0. call setDisabled()
+09-18 00:07:05.746 : omcEtcPath : /prism/etc/carriers/single/ZTO/uninstall_preloadpkg.lst
+09-18 00:07:05.752 : Set package state to disabled
+09-18 00:07:05.763 : !@setDisabled() is FINISHED
+10-29 14:09:55.745 : 
+10-29 14:09:55.746 : !@mIsUpgrade : true, mIsFirstBoot : false, mFingerprint : samsung/a26xsub/a26xs:16/BP4A.251205.006/A266MUBSBCZH1_OWOBCZH1:user/release-keys
+10-29 14:09:55.747 : loadInstallHistory() : com.facebook.katana;
+10-29 14:09:55.753 : persist.sys.storage_preload : 2
+10-29 14:09:55.754 : fota - mount hidden area using persist values.
+10-29 14:09:56.773 : cscCode : ZTO
+10-29 14:09:56.778 : Use skipping list : /prism/etc/carriers/single/ZTO/enforcedeletepackage_after_tss_activated.txt
+10-29 14:09:56.783 : Facebook_stub_preload.apk.gz is Added on mInstallPackageList
+10-29 14:09:56.786 : Use skipping list : /prism/etc/carriers/single/ZTO/enforcedeletepackage_after_tss_activated.txt
+10-29 14:09:56.839 : new : /data/user_de/0/android/cache/PrePackageInstaller/Facebook_stub_preload/Facebook_stub_preload.apk
+10-29 14:09:56.840 : fin
+10-29 14:09:56.841 : removed by user : /data/user_de/0/android/cache/PrePackageInstaller/Facebook_stub_preload/Facebook_stub_preload.apk
+10-29 14:09:56.842 : [CONFIRMED INSTALLING LIST]
+10-29 14:09:56.843 : apk count is 0. call setDisabled()
+10-29 14:09:56.844 : omcEtcPath : /prism/etc/carriers/single/ZTO/uninstall_preloadpkg.lst
+10-29 14:09:56.860 : Set package state to disabled
+10-29 14:09:56.889 : !@setDisabled() is FINISHED

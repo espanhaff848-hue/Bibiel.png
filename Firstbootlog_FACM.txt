@@ -1,0 +1,11 @@
+10-29 14:17:04:826 FactoryAirCommandManager : [AirCmdBroadcastReceiver$onReceive](7554) android.intent.action.BOOT_COMPLETED
+10-29 14:17:04:833 FactoryAirCommandManager : [Support$Kernel.read](7554) path=/efs/FactoryApp/air_command_wifi, value=null
+10-29 14:17:04:834 FactoryAirCommandManager : [AirCmdBroadcastReceiver$onReceive](7554)  
+10-29 14:17:04:835 FactoryAirCommandManager : [Support$Properties.get](7554) property=ro.factory.factory_binary, value=user
+10-29 14:17:04:838 FactoryAirCommandManager : [Support$Properties.get](7554) property=ro.build.type, value=user
+10-29 14:17:04:838 FactoryAirCommandManager : [Support$Properties.get](7554) property=sys.bootstat.first_boot_completed, value=1
+10-29 14:17:04:839 FactoryAirCommandManager : [AirCmdBroadcastReceiver$onReceive](7554) fac bin : false, user mode : true, first_boot_completed : 1
+10-29 14:17:04:841 FactoryAirCommandManager : [Support$isFacmTokenEnable](7554) EngineeringModeManager is connected
+10-29 14:17:04:851 FactoryAirCommandManager : [Support$isFacmTokenEnable](7554) token Status : false
+10-29 14:17:04:852 FactoryAirCommandManager : [AirCmdBroadcastReceiver$checkBinaryStatus](7554) Kill FACM Service
+10-29 14:17:04:854 FactoryAirCommandManager : [AirCmdBroadcastReceiver$disableReceiver](7554) AirCommandReceiver is disabled

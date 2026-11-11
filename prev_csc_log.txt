@@ -1,0 +1,19 @@
+2026-11-10 20:03:21.545-03:00 I/CscUpdateService: [onStartCommand(CscUpdateService.java:105)] set_CSC_version
+2026-11-10 20:03:21.550-03:00 I/CscParser: [onStartCommand(CscUpdateService.java:109)] getSWConfigPath : omc SW_Configuration file can read
+2026-11-10 20:03:21.550-03:00 D/CscParser: [m(CscParser.java:41)] update(): /prism/etc/SW_Configuration.xml file exist
+2026-11-10 20:03:21.554-03:00 I/CscUtil: [r(CscUtil.java:46)] isWifiOnly = false
+2026-11-10 20:03:21.562-03:00 I/CscUpdateService: [onStartCommand(CscUpdateService.java:139)] PATH_CSCNAME =CustomerDataSet.CSCName
+2026-11-10 20:03:21.569-03:00 I/CscUtil: [B(CscUtil.java:38)] checkChameleonStr : null
+2026-11-10 20:03:21.573-03:00 I/CscUtil: [j(CscUtil.java:21)] isCscUpdated userid : 0
+2026-11-10 20:03:21.576-03:00 I/CscUtil: [j(CscUtil.java:60)] isCscUpdated : true
+2026-11-10 20:03:21.577-03:00 I/CscUpdateService: [onStartCommand(CscUpdateService.java:183)] normal boot
+2026-11-10 20:03:21.602-03:00 I/CscUtil: [d(CscUtil.java:7)] getCscUpdated
+2026-11-10 20:03:21.603-03:00 I/CscUtil: [p(CscUtil.java:27)] Previous SalesCode : ZTO
+2026-11-10 20:03:21.603-03:00 I/CscUtil: [p(CscUtil.java:44)] Current SalesCode : ZTO
+2026-11-10 20:03:21.604-03:00 I/CscUtil: [e(CscUtil.java:5)] getOmcInstall
+2026-11-10 20:03:21.604-03:00 I/CscUtil: [f(CscUtil.java:5)] getOmcMount
+2026-11-10 20:03:21.605-03:00 I/CscUtil: [f(CscUtil.java:5)] getOmcMount
+2026-11-10 20:03:21.605-03:00 I/CscUpdateService: [onStartCommand(CscUpdateService.java:222)] This is normal boot : CSC not update
+2026-11-10 20:03:21.615-03:00 I/CscUpdateService: [onStartCommand(CscUpdateService.java:247)] same CSC Version
+2026-11-10 20:03:21.616-03:00 D/CscFileLog: [l(CscFileLog.java:18)] stop logging: prev
+2026-11-10 20:03:21.617-03:00 I/CscFileLog: [l(CscFileLog.java:52)] CSC versionName : 1.0.1.0

@@ -1,0 +1,187 @@
+26/10/25 21:36:11
+reason : no power
+java.lang.Exception: It is not an exception!! just save the trace for process which called shutdown thread!! ShutdownThread.shutdown
+	at com.android.server.power.ShutdownThread.shutdownInner(qb/113541818 b7f8eb634461cc023c52361995ee24b8d1801247e74aeb057c31e198c5ef799b:426)
+	at com.android.server.power.ShutdownThread.systemShutdown(qb/113541818 b7f8eb634461cc023c52361995ee24b8d1801247e74aeb057c31e198c5ef799b:34)
+	at com.android.server.BatteryService$13.run(qb/113541818 b7f8eb634461cc023c52361995ee24b8d1801247e74aeb057c31e198c5ef799b:195)
+	at android.os.Handler.handleCallback(Handler.java:1070)
+	at android.os.Handler.dispatchMessage(Handler.java:125)
+	at android.os.Looper.dispatchMessage(Looper.java:358)
+	at android.os.Looper.loopOnce(Looper.java:288)
+	at android.os.Looper.loop(Looper.java:392)
+	at com.android.server.SystemServer.main(qb/113541818 b7f8eb634461cc023c52361995ee24b8d1801247e74aeb057c31e198c5ef799b:898)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:638)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:950)
+21:36:14  2026-10-25 21:36:14-0300 | SHUTDOWN |       | REASON: no power [331]
+21:36:15  terminating init service start
+21:36:17  terminating init service end
+21:36:17  volume shutdown start
+21:36:17  sync() before umount...
+21:36:17  sync() before umount took
+21:36:17  zram start
+21:36:18  zram end
+21:36:18  disable vlu...
+21:36:18  disable vlu took...
+21:36:20  TryUmount start
+2026-10-26 00:55:13+0000 |          | NP    | OFFSRC: PWRHOLD / ONSRC: ACOKB / RSTSTAT: PINRESET PORESET [333] / 3610mV (1%) 
+
+2026-10-26 00:55:13+0000 |   LPM    |       |
+
+2026-10-25 21:55:56-0300 |    ON    | RP    | A266MUBSBCZH1 [334]
+
+26/10/26 17:39:54
+reason : no power
+java.lang.Exception: It is not an exception!! just save the trace for process which called shutdown thread!! ShutdownThread.shutdown
+	at com.android.server.power.ShutdownThread.shutdownInner(qb/113541818 b7f8eb634461cc023c52361995ee24b8d1801247e74aeb057c31e198c5ef799b:426)
+	at com.android.server.power.ShutdownThread.systemShutdown(qb/113541818 b7f8eb634461cc023c52361995ee24b8d1801247e74aeb057c31e198c5ef799b:34)
+	at com.android.server.BatteryService$13.run(qb/113541818 b7f8eb634461cc023c52361995ee24b8d1801247e74aeb057c31e198c5ef799b:195)
+	at android.os.Handler.handleCallback(Handler.java:1070)
+	at android.os.Handler.dispatchMessage(Handler.java:125)
+	at android.os.Looper.dispatchMessage(Looper.java:358)
+	at android.os.Looper.loopOnce(Looper.java:288)
+	at android.os.Looper.loop(Looper.java:392)
+	at com.android.server.SystemServer.main(qb/113541818 b7f8eb634461cc023c52361995ee24b8d1801247e74aeb057c31e198c5ef799b:898)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:638)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:950)
+17:39:57  2026-10-26 17:39:57-0300 | SHUTDOWN |       | REASON: no power [334]
+17:39:58  terminating init service start
+17:39:59  terminating init service end
+17:39:59  volume shutdown start
+17:39:59  sync() before umount...
+17:39:59  sync() before umount took
+17:39:59  zram start
+17:40:00  zram end
+17:40:00  disable vlu...
+17:40:00  disable vlu took...
+17:40:02  TryUmount start
+2026-10-26 22:25:46+0000 |          | NP    | OFFSRC: PWRHOLD / ONSRC: ACOKB / RSTSTAT: PINRESET PORESET [337] / 3912mV (18%) 
+
+2026-10-26 22:25:46+0000 |   LPM    |       |
+
+2026-10-26 19:26:31-0300 |    ON    | RP    | A266MUBSBCZH1 [338]
+
+26/10/27 20:52:58
+reason : no power
+java.lang.Exception: It is not an exception!! just save the trace for process which called shutdown thread!! ShutdownThread.shutdown
+	at com.android.server.power.ShutdownThread.shutdownInner(qb/113541818 b7f8eb634461cc023c52361995ee24b8d1801247e74aeb057c31e198c5ef799b:426)
+	at com.android.server.power.ShutdownThread.systemShutdown(qb/113541818 b7f8eb634461cc023c52361995ee24b8d1801247e74aeb057c31e198c5ef799b:34)
+	at com.android.server.BatteryService$13.run(qb/113541818 b7f8eb634461cc023c52361995ee24b8d1801247e74aeb057c31e198c5ef799b:195)
+	at android.os.Handler.handleCallback(Handler.java:1070)
+	at android.os.Handler.dispatchMessage(Handler.java:125)
+	at android.os.Looper.dispatchMessage(Looper.java:358)
+	at android.os.Looper.loopOnce(Looper.java:288)
+	at android.os.Looper.loop(Looper.java:392)
+	at com.android.server.SystemServer.main(qb/113541818 b7f8eb634461cc023c52361995ee24b8d1801247e74aeb057c31e198c5ef799b:898)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:638)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:950)
+20:53:07  2026-10-27 20:53:07-0300 | SHUTDOWN |       | REASON: no power [338]
+20:53:07  terminating init service start
+20:53:10  terminating init service end
+20:53:10  volume shutdown start
+20:53:10  sync() before umount...
+20:53:10  sync() before umount took
+20:53:10  zram start
+20:53:11  zram end
+20:53:11  disable vlu...
+20:53:11  disable vlu took...
+20:53:13  TryUmount start
+2026-10-28 00:01:45+0000 |          | RP    | [339] / 3602mV (0%) 
+
+2026-10-28 00:01:45+0000 |   LPM    |       |
+
+2026-10-27 21:16:04-0300 |    ON    | RP    | A266MUBSBCZH1 [340]
+
+26/10/28 19:42:29
+reason : no power
+java.lang.Exception: It is not an exception!! just save the trace for process which called shutdown thread!! ShutdownThread.shutdown
+	at com.android.server.power.ShutdownThread.shutdownInner(qb/113541818 b7f8eb634461cc023c52361995ee24b8d1801247e74aeb057c31e198c5ef799b:426)
+	at com.android.server.power.ShutdownThread.systemShutdown(qb/113541818 b7f8eb634461cc023c52361995ee24b8d1801247e74aeb057c31e198c5ef799b:34)
+	at com.android.server.BatteryService$13.run(qb/113541818 b7f8eb634461cc023c52361995ee24b8d1801247e74aeb057c31e198c5ef799b:195)
+	at android.os.Handler.handleCallback(Handler.java:1070)
+	at android.os.Handler.dispatchMessage(Handler.java:125)
+	at android.os.Looper.dispatchMessage(Looper.java:358)
+	at android.os.Looper.loopOnce(Looper.java:288)
+	at android.os.Looper.loop(Looper.java:392)
+	at com.android.server.SystemServer.main(qb/113541818 b7f8eb634461cc023c52361995ee24b8d1801247e74aeb057c31e198c5ef799b:898)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:638)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:950)
+19:42:35  2026-10-28 19:42:35-0300 | SHUTDOWN |       | REASON: no power [340]
+19:42:35  terminating init service start
+19:42:37  terminating init service end
+19:42:37  volume shutdown start
+19:42:37  sync() before umount...
+19:42:37  sync() before umount took
+19:42:37  zram start
+19:42:38  zram end
+19:42:38  disable vlu...
+19:42:38  disable vlu took...
+19:42:40  TryUmount start
+2026-10-28 22:58:48+0000 |          | NP    | OFFSRC: PWRHOLD / ONSRC: ACOKB / RSTSTAT: PINRESET PORESET [341] / 3596mV (1%) 
+
+2026-10-28 22:58:48+0000 |   LPM    |       |
+
+2026-10-28 20:08:32-0300 |    ON    | RP    | A266MUBSBCZH1 [342]
+
+26/10/29 14:01:52
+reason : recovery-update
+java.lang.Exception: It is not an exception!! just save the trace for process which called shutdown thread!! ShutdownThread.shutdown
+	at com.android.server.power.ShutdownThread.shutdownInner(qb/113541818 b7f8eb634461cc023c52361995ee24b8d1801247e74aeb057c31e198c5ef799b:426)
+	at com.android.server.power.ShutdownThread.reboot(qb/113541818 b7f8eb634461cc023c52361995ee24b8d1801247e74aeb057c31e198c5ef799b:50)
+	at com.android.server.power.PowerManagerService$4.run(qb/113541818 b7f8eb634461cc023c52361995ee24b8d1801247e74aeb057c31e198c5ef799b:43)
+	at android.os.Handler.handleCallback(Handler.java:1070)
+	at android.os.Handler.dispatchMessage(Handler.java:125)
+	at android.os.Looper.dispatchMessage(Looper.java:358)
+	at android.os.Looper.loopOnce(Looper.java:288)
+	at android.os.Looper.loop(Looper.java:392)
+	at android.os.HandlerThread.run(HandlerThread.java:139)
+	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+	at com.android.server.UiThread.run(qb/113541818 b7f8eb634461cc023c52361995ee24b8d1801247e74aeb057c31e198c5ef799b:16)
+14:02:01  2026-10-29 14:02:01-0300 |  REBOOT  |       | REASON: recovery [342]
+14:02:01  terminating init service start
+14:02:03  terminating init service end
+14:02:03  volume shutdown start
+14:02:03  sync() before umount...
+14:02:03  sync() before umount took
+14:02:03  zram start
+14:02:03  zram end
+14:02:03  disable vlu...
+14:02:03  disable vlu took...
+14:02:05  TryUmount start
+2026-10-29 14:10:01-0300 |    ON    | RP    | A266MUBSCCZJ1 [345]
+
+26/11/01 09:56:36
+reason : no power
+java.lang.Exception: It is not an exception!! just save the trace for process which called shutdown thread!! ShutdownThread.shutdown
+	at com.android.server.power.ShutdownThread.shutdownInner(qb/115951421 6e1e08379da9947f576fca21b5aaae8e33552f72d75bee020a5b5f967c203668:426)
+	at com.android.server.power.ShutdownThread.systemShutdown(qb/115951421 6e1e08379da9947f576fca21b5aaae8e33552f72d75bee020a5b5f967c203668:34)
+	at com.android.server.BatteryService$13.run(qb/115951421 6e1e08379da9947f576fca21b5aaae8e33552f72d75bee020a5b5f967c203668:195)
+	at android.os.Handler.handleCallback(Handler.java:1070)
+	at android.os.Handler.dispatchMessage(Handler.java:125)
+	at android.os.Looper.dispatchMessage(Looper.java:358)
+	at android.os.Looper.loopOnce(Looper.java:288)
+	at android.os.Looper.loop(Looper.java:392)
+	at com.android.server.SystemServer.main(qb/115951421 6e1e08379da9947f576fca21b5aaae8e33552f72d75bee020a5b5f967c203668:898)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:638)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:950)
+09:56:41  2026-11-01 09:56:41-0300 | SHUTDOWN |       | REASON: no power [345]
+09:56:42  terminating init service start
+09:56:44  terminating init service end
+09:56:44  volume shutdown start
+09:56:44  sync() before umount...
+09:56:44  sync() before umount took
+09:56:44  zram start
+09:56:45  zram end
+09:56:45  disable vlu...
+09:56:45  disable vlu took...
+09:56:47  TryUmount start
+2026-11-02 12:10:47+0000 |          | NP    | OFFSRC: PWRHOLD / ONSRC: PWRONB / RSTSTAT: PINRESET PORESET [349] / 3604mV (1%) 
+
+2026-11-02 12:10:47+0000 |   LPM    |       |
+
+2026-11-02 09:12:44-0300 |    ON    | RP    | A266MUBSCCZJ1 [350]
+
